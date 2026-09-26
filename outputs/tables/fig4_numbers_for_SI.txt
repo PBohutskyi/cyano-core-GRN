@@ -1,0 +1,29 @@
+Figure 4 source numbers, core GRN (11_figure4_core_stability.R)
+Representative network 889 nodes, 1100 edges; 10 seeded runs of the same pipeline
+
+A. Shared edges, representative vs each seeded run: 77.3% (IQR 77.0 to 77.3)
+   seeded vs seeded (45 pairs): 77.4% (IQR 76.9 to 77.8)
+   Wilcoxon rank sum, P = 0.397
+
+B. Regulator out-degree, representative vs the seeded mean: Spearman rho = 0.992, P < 0.001, n = 36; log-log slope 0.98
+
+C. Rank correlation with the representative network, median over 10 seeded runs:
+   Degree: 0.989 (min 0.983)
+   k-core: 0.833 (min 0.679)
+   Betweenness: 0.755 (min 0.668)
+   Eigenvector: 0.918 (min 0.899)
+   Stress: 0.756 (min 0.665)
+   IC: 0.918 (min 0.885)
+
+D. Top-15 recurrence: 8 regulators appear in all 10 seeded runs, 13 in at least 8, 21 in at least one
+   of those appearing in at least 8, 9 are stress-coupled
+
+E. Stress-coupled regulators in the top 15:
+   representative 11 of 15, p = 0.00535
+   seeded runs median 10, range 10 to 11; 10 of 10 significant at 0.05
+   expected under a random draw 6.7 (pool 38, 17 stress-coupled)
+
+F. Recovery of the representative top N in the seeded runs:
+   N = 10: mean 73% (range 60 to 80)
+   N = 15: mean 85% (range 80 to 93)
+   N = 20: mean 91% (range 85 to 95)

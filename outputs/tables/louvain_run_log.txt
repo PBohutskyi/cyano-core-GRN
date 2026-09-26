@@ -1,0 +1,9 @@
+Louvain clustering of the core GRN
+python: 3.13.5
+networkx: 3.4.2
+input: networks/core/network_of_record.graphml
+nodes: 889, edges: 1100, directed: True
+resolution: 5, seed: 12, minimum module size: 9
+communities: 29, retained: 23, nodes covered: 859
+adjusted Rand index vs the assignment of record: 1.0000
+Module integers are assigned in discovery order and carry no meaning. An index of 1.00 means the partition is identical and only the labels differ.

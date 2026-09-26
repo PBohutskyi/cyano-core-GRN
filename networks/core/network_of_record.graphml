@@ -1,0 +1,4660 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="louvain_cluster" attr.type="long"/>
+<key id="d0" for="node" attr.name="TF" attr.type="long"/>
+<graph edgedefault="directed"><node id="SYNPCC7942_RS06230">
+  <data key="d0">1</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS06235">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS08885">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS12200">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS03075">
+  <data key="d0">1</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS10555">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS08225">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS09325">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS03260">
+  <data key="d0">1</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS03265">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS03255">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS09380">
+  <data key="d0">1</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS01415">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS11465">
+  <data key="d0">1</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS03575">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS07435">
+  <data key="d0">1</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS08865">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS10700">
+  <data key="d0">1</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS04935">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS06030">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS12115">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS03325">
+  <data key="d0">1</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS01335">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS11230">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS09435">
+  <data key="d0">1</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS09370">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11105">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS07185">
+  <data key="d0">1</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS11705">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS05640">
+  <data key="d0">1</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05900">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11315">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS03160">
+  <data key="d0">1</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS00335">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS00480">
+  <data key="d0">1</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01720">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS10350">
+  <data key="d0">1</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS01695">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS10755">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS08645">
+  <data key="d0">1</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS13020">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS07280">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS05720">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS07600">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS01575">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS03335">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07805">
+  <data key="d0">1</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS12465">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS03565">
+  <data key="d0">1</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS05730">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS05755">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS06470">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS01515">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS00030">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS04565">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS11295">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS13930">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS07455">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS11215">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS08360">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS06430">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08820">
+  <data key="d0">1</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS10425">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS03310">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS05870">
+  <data key="d0">1</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS06795">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS06545">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS08345">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS04225">
+  <data key="d0">1</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS06040">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS09500">
+  <data key="d0">1</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS01810">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11930">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11500">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS01770">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS12560">
+  <data key="d0">1</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS09000">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS10260">
+  <data key="d0">1</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS10265">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS04325">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS06445">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS01655">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS12900">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS00060">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS11240">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS12070">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05480">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS02945">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS03280">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS01585">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS12180">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS12515">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS10790">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS11290">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS00810">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11845">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS04550">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS04605">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00545">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS06245">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS06760">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS04780">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS12120">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS08830">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS09545">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS00645">
+  <data key="d0">1</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS00120">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS10065">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS06915">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS11265">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS06955">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS06105">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS05010">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS04335">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09960">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS09660">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS08620">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS09375">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS06005">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11305">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS07645">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00770">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS11210">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS03505">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS04350">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11225">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS03490">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS06700">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS07540">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS01800">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS05255">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS02435">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS07670">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04320">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS08490">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS04520">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS10570">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS09805">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS04510">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS06745">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS09850">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS12570">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS04915">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS04310">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS09295">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS12995">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS07720">
+  <data key="d0">1</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS09945">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS12670">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS01420">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS05840">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS11205">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS12420">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS00985">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS10455">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01925">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS01685">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS06250">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS02600">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07300">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS04800">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS12845">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS11770">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS12565">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS00535">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS02730">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS12170">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS08170">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS02905">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS06310">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS11330">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS13040">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS04945">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS02575">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS10415">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS05710">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09970">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS04870">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS05070">
+  <data key="d0">1</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS11915">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS10695">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS10550">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11800">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS02275">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS07590">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07440">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS03990">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS02360">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04330">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS12890">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS08100">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS04860">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS07275">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS04940">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11525">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS10795">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS00355">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04155">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00960">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04970">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS01730">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11815">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS05560">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS02050">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS10600">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS04030">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01970">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS05590">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS04680">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS04000">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05120">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS09590">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS13235">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS06680">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11120">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11395">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09320">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS08870">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS01670">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS06275">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS12715">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS03340">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS06950">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS02175">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS03480">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01625">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04160">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS12980">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09830">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11285">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS00900">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07260">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS02455">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS02220">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS09725">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS09100">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS00460">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS05270">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS06095">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS10010">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09040">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS01500">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS00700">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS09625">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS11200">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS09275">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS04570">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11710">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01780">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS06845">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS02745">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS00720">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS08080">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS08935">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS03995">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS05555">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS10040">
+  <data key="d0">1</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS11385">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS02470">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS07385">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS07815">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS00020">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS12970">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS04900">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS07665">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS10195">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS08425">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03200">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS13265">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS13305">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS07780">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS01845">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS08155">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS00780">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS13180">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS08060">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS06620">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS01390">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS11280">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS09940">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS10070">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS04850">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS03655">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS00450">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS06940">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07270">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS00395">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS05595">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS11730">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03670">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS08545">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS06015">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS12065">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS10435">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS04095">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09580">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS09290">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS08670">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS02725">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS01300">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS05545">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09255">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS03370">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS06850">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS12695">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS12620">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS01660">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS12470">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11690">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS00675">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS06810">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11435">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS04340">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS04740">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS10575">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS06860">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS08525">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS10020">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS09790">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS11065">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS11235">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS11900">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS08250">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS05340">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03540">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS10470">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS07135">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS03030">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS06365">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS00860">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS10915">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS03470">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS06020">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS01650">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03245">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS09780">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS01665">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS03100">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS07690">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS05230">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS08420">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS03530">
+  <data key="d0">1</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS05425">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS01675">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS08900">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS10475">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS02695">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS05210">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS02545">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS06100">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01750">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11950">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS02065">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS10595">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS08825">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS08805">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08690">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS10585">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS00695">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS12160">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS03285">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS10465">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS05610">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS06315">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS09485">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS06540">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS02045">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS04560">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11300">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS12440">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS01640">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS02060">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS00455">
+  <data key="d0">1</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS08315">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS07725">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS05075">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS04755">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS07810">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS12825">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS00590">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS04735">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS09630">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS05820">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS02000">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS09910">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS03500">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS13295">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS12040">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08955">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS10480">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00580">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS02970">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS01765">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11685">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS09310">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS04830">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS12190">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS04400">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS00715">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS09415">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS04555">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS11325">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS09425">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS02940">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS12270">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS06515">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS05035">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS12850">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS10025">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS03660">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS00005">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS08750">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS09175">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS09250">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS05735">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS07565">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS00115">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS03155">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04015">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS00610">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS11895">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS08090">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS10420">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS07500">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS07200">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS07180">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS09700">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS03445">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS08265">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05630">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01145">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS06260">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS10690">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS03520">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04795">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09020">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS00015">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS04635">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS10100">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS06815">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS05490">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11850">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS08660">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS08500">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS12860">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11530">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS04265">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS07305">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS03345">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS12885">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS04170">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS02565">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS07450">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS13675">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS07355">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS05980">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS08475">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS12575">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS00905">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS02340">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS09635">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS00640">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS07115">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS02960">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS09440">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS09530">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11890">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS00565">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08635">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS03650">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS02605">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04050">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS03610">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS02860">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS06925">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS05285">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS06525">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS03135">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07405">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS00350">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS02300">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS04295">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08735">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS10955">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS12760">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS06035">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS07740">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03250">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS02195">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS07595">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS11945">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS12365">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS00500">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS07770">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS02625">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS07660">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS05350">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11220">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS09620">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS00515">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS09820">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS08800">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS05750">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS06465">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS06025">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS12975">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS01030">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04475">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS05390">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS05665">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS10725">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS11960">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS02405">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09505">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS12745">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS01475">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS10510">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS02735">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS05690">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS02390">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS08945">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS02720">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS07730">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS01645">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS02335">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS11865">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS02095">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS12110">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS07020">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS06655">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS05995">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS01825">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS02610">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS13185">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS01470">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS00555">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11540">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11905">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS10145">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS06725">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS05060">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS04760">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS02900">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS01490">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS06115">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS10180">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07215">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS08875">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS01160">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07915">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS06495">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS06865">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS11320">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS04385">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03350">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS07350">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS04090">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS12340">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS12320">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS09615">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS00320">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS10765">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS10200">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS12590">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS07070">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS00430">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS07510">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS04180">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11505">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11450">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS08835">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS11275">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS09115">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS02620">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS04060">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05420">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08390">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS13115">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS09980">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00385">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS05495">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS01605">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS07080">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS08145">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01715">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS04750">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS07235">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS11510">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS01360">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07705">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04990">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS00735">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS02505">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS08960">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS10580">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS03055">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS09265">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS02820">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09950">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS00685">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS13275">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS11480">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS03205">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS09105">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS11255">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS05845">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS01690">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS01705">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS06405">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS09195">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS06480">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS02385">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01225">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS04455">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS03640">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11195">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01505">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS13005">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS04445">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS11970">
+  <data key="d0">1</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS00135">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS10450">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS04810">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS01330">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS13165">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS12210">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS06080">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09690">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS10385">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS04380">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS13125">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS04790">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09075">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS06720">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS03625">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11170">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS09670">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS02510">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS05850">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS08700">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS01375">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS11350">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS06045">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS11810">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS10440">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS02715">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS08555">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS12520">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07425">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS05570">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS10875">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS03145">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS02425">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS02170">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS10380">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01185">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS07585">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS02795">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS05865">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS07415">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS09140">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS02280">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS05170">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS02285">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS12855">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS11250">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS02670">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04290">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS07005">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS05990">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01405">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS09720">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS03440">
+  <data key="d0">1</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS01180">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS10115">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS06885">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS04515">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS11780">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS04785">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS01310">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS04595">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS13225">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS13770">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS06715">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS05090">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS08115">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS04205">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS12145">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11335">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS07795">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS01545">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS00415">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09965">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11805">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS10275">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS08860">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS08725">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS10485">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS02465">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS09280">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS03115">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS03180">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04405">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS08785">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS09800">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS06130">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS07555">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS06610">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS06875">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS10295">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS13160">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05315">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS02185">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS03495">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS12295">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS09920">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS05410">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07120">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS09465">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS11185">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS01315">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS09340">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS00970">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS10775">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS08570">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09540">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS07680">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11000">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS06055">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS01700">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS12125">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS09355">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS06400">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS00705">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS07570">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS02595">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS09455">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS02030">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS05670">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS12735">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS05145">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS08125">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS08710">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS12380">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS01635">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS13120">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS05185">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS08905">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS13000">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS01965">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS10355">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS08515">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS03415">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS12105">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS04805">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS09035">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS02760">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS07265">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS05240">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS11755">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS08365">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS03450">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS11775">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS07100">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS00520">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS09795">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS01710">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS04890">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS01110">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS12700">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS10215">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07790">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS13875">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS04930">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS09510">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS05360">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS10615">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS04840">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS05015">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS09870">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS13060">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+</node>
+<node id="SYNPCC7942_RS02710">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS08215">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS13150">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS05835">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS04905">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS13250">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS08185">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS09865">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS02430">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS10710">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS00045">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00635">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS13055">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS10055">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS01355">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS09605">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS12445">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS12645">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS06535">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS11310">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+</node>
+<node id="SYNPCC7942_RS10740">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS03220">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+</node>
+<node id="SYNPCC7942_RS06435">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS09810">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11995">
+  <data key="d0">0</data>
+  <data key="d1">21</data>
+</node>
+<node id="SYNPCC7942_RS06355">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS10715">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS04590">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS03455">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS06395">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS09595">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS01540">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS06240">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS03170">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS00570">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS00800">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS03620">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS00025">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS07365">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS12535">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS01220">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS09490">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS05055">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS02690">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS05005">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS08000">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS11190">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS12015">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS10050">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+</node>
+<node id="SYNPCC7942_RS11600">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS02245">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS07675">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS00330">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS12185">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS06500">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS08560">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS03645">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05050">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS02810">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS10760">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS01440">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+</node>
+<node id="SYNPCC7942_RS02775">
+  <data key="d0">0</data>
+  <data key="d1">29</data>
+</node>
+<node id="SYNPCC7942_RS04730">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS01305">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS13280">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS09055">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS09550">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS09985">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS12990">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+</node>
+<node id="SYNPCC7942_RS10520">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS10035">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS08260">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS07410">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS07330">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS06280">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS00840">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS02845">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS10750">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS03010">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS04995">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS00090">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS02255">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS11615">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+</node>
+<node id="SYNPCC7942_RS04545">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS05175">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+</node>
+<node id="SYNPCC7942_RS01595">
+  <data key="d0">0</data>
+  <data key="d1">19</data>
+</node>
+<node id="SYNPCC7942_RS13245">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS00830">
+  <data key="d0">0</data>
+  <data key="d1">15</data>
+</node>
+<node id="SYNPCC7942_RS01840">
+  <data key="d0">0</data>
+  <data key="d1">16</data>
+</node>
+<node id="SYNPCC7942_RS06385">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS11260">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS02440">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS07060">
+  <data key="d0">0</data>
+  <data key="d1">14</data>
+</node>
+<node id="SYNPCC7942_RS04685">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+</node>
+<node id="SYNPCC7942_RS07930">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS12755">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<node id="SYNPCC7942_RS02480">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS08565">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+</node>
+<node id="SYNPCC7942_RS09825">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS12880">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+</node>
+<node id="SYNPCC7942_RS03560">
+  <data key="d0">0</data>
+  <data key="d1">20</data>
+</node>
+<node id="SYNPCC7942_RS05815">
+  <data key="d0">0</data>
+  <data key="d1">24</data>
+</node>
+<node id="SYNPCC7942_RS10920">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS03110">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+</node>
+<node id="SYNPCC7942_RS04145">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+</node>
+<node id="SYNPCC7942_RS09045">
+  <data key="d0">0</data>
+  <data key="d1">25</data>
+</node>
+<node id="SYNPCC7942_RS00885">
+  <data key="d0">0</data>
+  <data key="d1">17</data>
+</node>
+<node id="SYNPCC7942_RS03605">
+  <data key="d0">0</data>
+  <data key="d1">18</data>
+</node>
+<edge source="SYNPCC7942_RS06230" target="SYNPCC7942_RS06235"/>
+<edge source="SYNPCC7942_RS08885" target="SYNPCC7942_RS12200"/>
+<edge source="SYNPCC7942_RS08885" target="SYNPCC7942_RS05590"/>
+<edge source="SYNPCC7942_RS08885" target="SYNPCC7942_RS12590"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS10555"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS08225"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS09325"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS09380"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS01415"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS12115"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS12120"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS12995"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS07720"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS01420"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS07260"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS11950"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS04050"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS07265"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS08215"/>
+<edge source="SYNPCC7942_RS03075" target="SYNPCC7942_RS12990"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS03265"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS03255"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11230"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11315"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS07600"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04565"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11295"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11215"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS03310"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS06545"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS01770"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12900"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS00060"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11240"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04550"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS10260"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS09545"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11305"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04915"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12670"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12420"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS06250"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12845"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS02730"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11330"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04680"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS09590"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12715"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS09725"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11200"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS00720"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11285"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12065"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11690"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04740"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS07690"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS05075"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS00715"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS09425"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12270"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12850"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11465"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS02300"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS03250"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS05750"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS06025"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS00500"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS07915"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11320"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS07070"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS01605"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS07725"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS10470"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS02280"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04290"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS08835"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS05090"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11335"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11805"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12560"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11300"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS12735"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS05865"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS08100"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11915"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS00800"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS06130"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS07675"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11225"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS09865"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS10520"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS06020"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS11260"/>
+<edge source="SYNPCC7942_RS03260" target="SYNPCC7942_RS04685"/>
+<edge source="SYNPCC7942_RS09380" target="SYNPCC7942_RS11105"/>
+<edge source="SYNPCC7942_RS09380" target="SYNPCC7942_RS10555"/>
+<edge source="SYNPCC7942_RS09380" target="SYNPCC7942_RS03075"/>
+<edge source="SYNPCC7942_RS09380" target="SYNPCC7942_RS08225"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS03575"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06030"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01695"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS10755"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01575"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS13930"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01655"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS12180"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06760"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00770"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS09805"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00060"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01685"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS07300"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06310"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS02575"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS03480"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01500"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11770"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS10195"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS13265"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS07270"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS02725"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01660"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS03370"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11065"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11900"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06020"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01665"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS04735"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00580"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00715"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00720"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS07500"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01145"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS10455"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00015"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06230"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS13675"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06525"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS12575"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS05390"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11960"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11800"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS05690"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS02720"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11905"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS03505"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS08390"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS07080"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01715"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS09105"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06405"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS12210"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS03255"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS12850"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS09670"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01705"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS04555"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11240"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06055"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS06400"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS11775"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01710"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS12700"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS05015"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS13060"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS01700"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS03455"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS00025"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS10050"/>
+<edge source="SYNPCC7942_RS11465" target="SYNPCC7942_RS07275"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS08865"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS07280"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05720"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05480"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS03280"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS12570"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS11770"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS07275"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS08870"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01670"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS08080"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS02470"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05595"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS03670"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS03100"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS06315"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS02970"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS11325"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05820"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS00640"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS00350"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05665"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS12745"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS02735"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS04090"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS12340"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS10765"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01665"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS04990"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01690"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01705"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS10025"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01505"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05850"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS04400"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01515"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS11335"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01700"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS07385"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS05670"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS07100"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS13060"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01715"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS01710"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS07365"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS07450"/>
+<edge source="SYNPCC7942_RS07435" target="SYNPCC7942_RS08315"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS04935"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS00030"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS07455"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS06915"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS06955"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS10570"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS01390"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS06860"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS00645"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS04400"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS04265"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS07450"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS04475"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS01825"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS06495"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS09615"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS01180"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS00350"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS10350"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS12105"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS13150"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS02970"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS07365"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS05175"/>
+<edge source="SYNPCC7942_RS10700" target="SYNPCC7942_RS08500"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS01335"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS01515"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11290"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS06245"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11265"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11210"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11225"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11205"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS13235"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS07385"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS07780"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11280"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11235"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS08250"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS03245"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS06540"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11300"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11685"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS04555"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11325"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS12885"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11275"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS12850"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS06315"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS05315"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS03345"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS08905"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS03450"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS11310"/>
+<edge source="SYNPCC7942_RS03325" target="SYNPCC7942_RS04090"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS09370"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10065"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS09375"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS02435"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10415"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS01970"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS06095"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS09625"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS00020"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS03200"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS06620"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10070"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS04850"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS05210"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10595"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS00695"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS12190"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10690"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS08660"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS03650"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS01470"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS05060"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS06115"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS07350"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS04755"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10200"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS00430"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS13115"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS07235"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS09970"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS09950"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS03565"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS03205"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS06045"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS11810"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS07425"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10875"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS00905"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS04515"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10485"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS11510"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS05230"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS05495"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS10775"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS02595"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS03415"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS07020"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS06850"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS03995"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS06435"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS12015"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS01305"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS07410"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS07930"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS09825"/>
+<edge source="SYNPCC7942_RS09435" target="SYNPCC7942_RS12880"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS11705"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS09960"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS04945"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS00460"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS07815"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS12970"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS09940"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS09780"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS05610"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS09630"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS02000"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS10040"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS07305"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS08475"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS02960"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS04750"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS08960"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS09265"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS06745"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS01225"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS02795"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS07005"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS03440"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS06885"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS08725"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS07120"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS00675"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS08710"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS02625"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS04905"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS09605"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS12645"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS06535"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS02065"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS06395"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS01540"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS00570"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS05005"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS10760"/>
+<edge source="SYNPCC7942_RS07185" target="SYNPCC7942_RS02775"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05900"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03335"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06430"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11930"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11500"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04325"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06445"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12070"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02945"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00810"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04605"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00545"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04780"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05010"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04335"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS07645"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04350"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03490"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01800"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05710"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS07590"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04330"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08100"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04940"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11525"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04155"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00960"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01730"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04030"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04000"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11120"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01625"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04160"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03565"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02220"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05270"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS10010"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09040"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09275"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01780"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06845"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06940"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08545"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04095"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08670"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12470"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06810"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04340"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03030"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01650"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08805"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12160"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06365"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11710"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS07810"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12040"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS10480"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04830"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05755"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00115"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03445"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08265"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06260"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05490"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12860"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11530"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00905"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09635"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09530"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00565"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03135"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04295"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08735"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS11945"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05350"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00515"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06465"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01300"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04760"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08875"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04180"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09115"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04060"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05420"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09980"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01605"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02505"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02820"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06950"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS13165"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04385"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12520"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05170"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04740"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS13225"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS10380"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02390"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06130"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04455"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS13160"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05410"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08570"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS07680"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS07570"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03180"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00610"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04595"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS10215"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06610"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08785"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09870"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00045"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS05240"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS01030"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS12065"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS09810"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02670"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06005"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS03645"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08260"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00090"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS00135"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS04545"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS13245"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS06385"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS08565"/>
+<edge source="SYNPCC7942_RS05640" target="SYNPCC7942_RS02900"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS00335"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS10350"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS08360"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS12515"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS10700"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS08490"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS04800"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS08170"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS04900"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS01845"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS11435"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS01675"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS10585"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS08500"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS12320"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS01780"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS06915"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS10450"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS00645"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS05595"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS01545"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS07455"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS10145"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS09035"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS13120"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS09020"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS05835"/>
+<edge source="SYNPCC7942_RS03160" target="SYNPCC7942_RS06955"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01720"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01585"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS06105"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS04520"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS10455"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS12170"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS04870"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS11915"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS10695"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS07440"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS00700"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS02745"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS06015"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS10575"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS02695"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS06100"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS09250"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS06235"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS00610"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS09700"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS05630"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS02220"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS11065"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01475"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS10145"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS03490"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS04455"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01800"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS05990"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS04595"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01145"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS03115"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS08785"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS09635"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS04320"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS09795"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS03370"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS13250"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS03480"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS00025"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01220"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS12185"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS01440"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS00515"/>
+<edge source="SYNPCC7942_RS00480" target="SYNPCC7942_RS08345"/>
+<edge source="SYNPCC7942_RS10350" target="SYNPCC7942_RS12515"/>
+<edge source="SYNPCC7942_RS10350" target="SYNPCC7942_RS03220"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS13020"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS06470"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS10790"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS11845"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS09660"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02905"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS03990"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02050"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS09320"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS09100"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS04225"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS00395"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS00675"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS09790"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02065"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02045"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02060"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS04015"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02625"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS08885"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS12975"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS06655"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS02610"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS00460"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS04810"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS12855"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS10275"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS09800"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS11185"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS08365"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS07555"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS09490"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS06480"/>
+<edge source="SYNPCC7942_RS08645" target="SYNPCC7942_RS11615"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS12465"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS05255"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS01925"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS12565"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS00535"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09970"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02455"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08935"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS05555"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08060"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS00450"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09580"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09255"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08525"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS10020"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS10795"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS03470"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS11465"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02545"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS10465"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09485"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02940"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08750"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09175"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS12575"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS10955"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS07595"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09820"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS10725"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS11865"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS07020"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS05995"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS06725"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02900"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS06865"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS11510"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS03075"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09195"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS07500"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS03660"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02510"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08555"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS00770"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS06620"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS12995"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS06875"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS10295"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02185"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS09630"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS12380"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS05185"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS00520"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS04860"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS01420"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS13055"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08390"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS05850"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS02690"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS08000"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS05050"/>
+<edge source="SYNPCC7942_RS07805" target="SYNPCC7942_RS04145"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05730"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05755"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS08345"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06005"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04320"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS09945"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00985"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS11800"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS02275"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12890"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04860"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06680"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06275"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03340"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06950"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01800"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS11710"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03995"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS08425"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03655"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS11730"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01300"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03370"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06850"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05340"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS08825"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS13305"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03160"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04755"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS13295"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04160"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03660"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05735"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS11895"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS07115"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03610"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06925"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS07740"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05640"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01030"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06700"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS02390"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05870"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06365"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01490"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04385"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00320"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS02900"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00480"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04180"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05995"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS08145"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS07705"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS09250"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS02385"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00580"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS11195"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00135"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS09690"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03625"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS10380"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01185"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS07805"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS02670"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12145"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS09700"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06845"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS03180"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS11120"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06610"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12295"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS09920"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12125"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01650"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04290"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS13120"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06525"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05090"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05240"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12825"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00960"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS09435"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00905"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04890"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS02710"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS10695"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04515"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS01625"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS08170"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04590"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06240"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12180"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS12170"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS00545"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS07080"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS06280"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS04030"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS05170"/>
+<edge source="SYNPCC7942_RS03565" target="SYNPCC7942_RS07060"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS10425"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS08830"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS12620"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS08835"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS13770"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS02430"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS10055"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS08560"/>
+<edge source="SYNPCC7942_RS08820" target="SYNPCC7942_RS00830"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS06795"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS13040"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS05120"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS09830"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS11215"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS04570"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS13305"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS08155"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS09290"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS11690"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS07135"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS01750"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS04560"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS05820"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS10025"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS11850"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS00120"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS03345"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS04170"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS08635"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS02195"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS11220"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS00555"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS02735"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS07215"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS03350"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS02620"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS07435"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS03640"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS13005"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS10385"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS00700"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS01375"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS05865"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS11250"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS09820"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS01635"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS09370"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS13000"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS01965"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS07780"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS07790"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS10740"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS02810"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS04730"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS04995"/>
+<edge source="SYNPCC7942_RS05870" target="SYNPCC7942_RS01840"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS06040"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS11815"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09500"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS10915"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS01640"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS00590"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09910"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS04635"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS12760"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS06035"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09620"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09505"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS01645"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS12110"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09940"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS07510"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS11450"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS00385"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS00735"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS13275"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS05845"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS03530"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS06480"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS02610"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS12340"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS07415"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09720"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS04205"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09355"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09415"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS13875"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS00635"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS05055"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS09055"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS10920"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS08900"/>
+<edge source="SYNPCC7942_RS04225" target="SYNPCC7942_RS00885"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01810"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07670"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04510"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02600"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS05070"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS10550"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02360"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS10795"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS00355"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04970"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11395"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02175"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS12980"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS00900"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07665"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS13180"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS05545"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS12695"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS08900"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03285"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11815"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS08955"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01765"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS09415"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS05035"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07565"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03155"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03520"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07200"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04795"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS06815"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS05980"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02605"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02860"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS12365"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07770"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS08800"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02405"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS08945"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11540"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03445"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS10180"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01160"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11505"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01360"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS10580"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03055"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11480"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS00455"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01330"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS06080"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04380"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04790"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11170"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS11350"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS09590"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02170"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS09140"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS10115"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04785"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01310"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07795"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS00415"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS09965"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07555"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS13125"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS09465"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02030"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS08515"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS06940"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS04840"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS09865"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS08125"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS07415"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS01770"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS06655"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03170"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS00330"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS13280"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS10750"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS02440"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS12755"/>
+<edge source="SYNPCC7942_RS09500" target="SYNPCC7942_RS03605"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS09000"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS04310"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS06850"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS12440"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS07725"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS12825"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS07355"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS04330"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS06720"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS08545"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS01315"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS05185"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS04930"/>
+<edge source="SYNPCC7942_RS12560" target="SYNPCC7942_RS01595"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS10265"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS04565"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS03505"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS03255"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11285"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS10470"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11230"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS00005"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11890"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS03260"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS12270"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS00500"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11225"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS10510"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS02095"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11305"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11315"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS12900"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11255"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS11320"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS12845"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS09280"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS00720"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS00970"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS05145"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS04680"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS03620"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS02245"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS00015"/>
+<edge source="SYNPCC7942_RS10260" target="SYNPCC7942_RS03560"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS00120"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS08620"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS09295"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS05840"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS05560"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS08690"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS09020"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS02565"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS10700"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS09440"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS04265"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS10440"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS03145"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS02465"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS03495"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS04805"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS04935"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS06955"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS03670"/>
+<edge source="SYNPCC7942_RS00645" target="SYNPCC7942_RS11995"/>
+<edge source="SYNPCC7942_RS06700" target="SYNPCC7942_RS07540"/>
+<edge source="SYNPCC7942_RS06700" target="SYNPCC7942_RS10600"/>
+<edge source="SYNPCC7942_RS06700" target="SYNPCC7942_RS10615"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS09850"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS00685"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS10275"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS11755"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS10035"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS07330"/>
+<edge source="SYNPCC7942_RS06745" target="SYNPCC7942_RS03110"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS03540"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS10475"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS03500"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09310"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS06515"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS08090"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS10420"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS07200"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS10100"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS07405"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS07730"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS13185"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS08955"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS05495"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS04445"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS13125"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS08700"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS02715"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS05570"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS02425"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS01405"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS08115"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS03055"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS04405"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS07810"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09340"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09540"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09455"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS02760"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS08185"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS10710"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS01355"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS11170"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09595"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS10200"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS06500"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09435"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09550"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS03030"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS09985"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS06240"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS00840"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS03010"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS02255"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS13180"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS02480"/>
+<edge source="SYNPCC7942_RS05070" target="SYNPCC7942_RS05815"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS11385"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS00780"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS10435"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS07180"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS02340"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS05285"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS07660"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS02335"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS09265"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS11970"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS09075"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS00705"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS09510"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS00455"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS12445"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS11190"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS02845"/>
+<edge source="SYNPCC7942_RS10040" target="SYNPCC7942_RS09045"/>
+<edge source="SYNPCC7942_RS06365" target="SYNPCC7942_RS00860"/>
+<edge source="SYNPCC7942_RS06365" target="SYNPCC7942_RS03115"/>
+<edge source="SYNPCC7942_RS06365" target="SYNPCC7942_RS06355"/>
+<edge source="SYNPCC7942_RS05230" target="SYNPCC7942_RS08420"/>
+<edge source="SYNPCC7942_RS05230" target="SYNPCC7942_RS07585"/>
+<edge source="SYNPCC7942_RS05230" target="SYNPCC7942_RS11780"/>
+<edge source="SYNPCC7942_RS05230" target="SYNPCC7942_RS08125"/>
+<edge source="SYNPCC7942_RS05230" target="SYNPCC7942_RS05360"/>
+<edge source="SYNPCC7942_RS05230" target="SYNPCC7942_RS11600"/>
+<edge source="SYNPCC7942_RS03530" target="SYNPCC7942_RS05425"/>
+<edge source="SYNPCC7942_RS03530" target="SYNPCC7942_RS01110"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS08315"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS07180"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS06715"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS08860"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS07185"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS10355"/>
+<edge source="SYNPCC7942_RS00455" target="SYNPCC7942_RS10715"/>
+<edge source="SYNPCC7942_RS13165" target="SYNPCC7942_RS02285"/>
+<edge source="SYNPCC7942_RS03440" target="SYNPCC7942_RS11000"/>
+<edge source="SYNPCC7942_RS12535" target="SYNPCC7942_RS06355"/>
+</graph></graphml>

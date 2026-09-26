@@ -1,0 +1,11 @@
+# written by the scripts; only tables, assembled figures and Datasets are kept
+logs/
+outputs/genie3_rerun/
+outputs/figures/*
+!outputs/figures/*_assembled.pdf
+!outputs/figures/*_assembled.png
+!outputs/figures/fig1_panelA.pdf
+!outputs/figures/fig1_panelA.png
+.DS_Store
+.Rhistory
+__pycache__/

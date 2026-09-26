@@ -1,0 +1,58 @@
+Supplementary Figure S2 source numbers (12_figureS2_species_stability.R)
+  PCC 7942: representative network 1978 nodes, 3500 edges, 66 regulators ranked
+  PCC 6803: representative network 2461 nodes, 3500 edges, 73 regulators ranked
+  PCC 7002: representative network 2181 nodes, 3500 edges, 77 regulators ranked
+
+A. Shared edges between runs:
+  PCC 7942 seeded vs seeded: 89.4% (IQR 89.1 to 89.5)
+  PCC 7942 representative vs seeded: 89.1% (IQR 88.8 to 89.2)
+  PCC 6803 seeded vs seeded: 80.7% (IQR 80.4 to 80.9)
+  PCC 6803 representative vs seeded: 80.6% (IQR 80.4 to 80.7)
+  PCC 7002 seeded vs seeded: 73.0% (IQR 72.6 to 73.5)
+  PCC 7002 representative vs seeded: 73.2% (IQR 73.0 to 73.3)
+
+B. Regulator out-degree, representative vs the seeded mean, Spearman rho:
+  PCC 7942: 0.998 over 66 regulators
+  PCC 6803: 0.993 over 73 regulators
+  PCC 7002: 0.994 over 77 regulators
+
+C. Rank correlation with the representative network, median over 10 seeded runs:
+  PCC 7942:
+    Degree: 0.995 (min 0.989)
+    k-core: 0.879 (min 0.837)
+    Betweenness: 0.895 (min 0.768)
+    Eigenvector: 0.980 (min 0.968)
+    Stress: 0.902 (min 0.783)
+    IC: 0.947 (min 0.924)
+  PCC 6803:
+    Degree: 0.990 (min 0.985)
+    k-core: 0.790 (min 0.655)
+    Betweenness: 0.668 (min 0.508)
+    Eigenvector: 0.914 (min 0.883)
+    Stress: 0.673 (min 0.510)
+    IC: 0.905 (min 0.884)
+  PCC 7002:
+    Degree: 0.989 (min 0.987)
+    k-core: 0.829 (min 0.704)
+    Betweenness: 0.729 (min 0.592)
+    Eigenvector: 0.919 (min 0.879)
+    Stress: 0.737 (min 0.601)
+    IC: 0.921 (min 0.874)
+
+D. Regulators reaching the top 15 by IC:
+  PCC 7942: 13 in all 10 seeded runs, 14 in at least 8, 17 in at least one
+  PCC 6803: 6 in all 10 seeded runs, 10 in at least 8, 24 in at least one
+  PCC 7002: 5 in all 10 seeded runs, 10 in at least 8, 30 in at least one
+
+E. Recovery of the representative top N in the seeded runs:
+  PCC 7942: N = 10 93%, N = 15 97%, N = 20 96%
+  PCC 6803: N = 10 65%, N = 15 76%, N = 20 76%
+  PCC 7002: N = 10 63%, N = 15 70%, N = 20 78%
+
+F. Regulators shared between the species top 15 and the core top 15 (core network held fixed at its representative form):
+  PCC 7942: representative 5 of 15; seeded runs median 5, range 5 to 5
+  PCC 6803: representative 7 of 15; seeded runs median 5, range 4 to 7
+  PCC 7002: representative 6 of 15; seeded runs median 6, range 5 to 8
+  PCC 7942 expected at random 3.2 of 15 (14 of the core top 15 have an ortholog among the 66 regulators of that network); fold over random 1.6, hypergeometric p at the median 0.17
+  PCC 6803 expected at random 3.1 of 15 (15 of the core top 15 have an ortholog among the 73 regulators of that network); fold over random 1.6, hypergeometric p at the median 0.154
+  PCC 7002 expected at random 2.9 of 15 (15 of the core top 15 have an ortholog among the 77 regulators of that network); fold over random 2.1, hypergeometric p at the median 0.0359

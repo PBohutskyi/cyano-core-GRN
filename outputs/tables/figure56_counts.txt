@@ -1,0 +1,22 @@
+Figure 5, cross-validated regulators
+  placements (species x measure group): 34
+  matches (regulator x species x measure): 43
+  distinct core regulators: 12
+  stress-coupled placements: 26 (76%)
+
+Figure 6, species-specific regulators
+  placements: 105
+  distinct regulators: 49
+  placements without a regulator name: 2 (2 distinct regulators)
+  stress-coupled placements: 42 of 105 (40%)
+  stress-coupled distinct regulators: 19 of 49
+    category                               distinct placements
+    carbon metabolism                             8       20
+    circadian clock                               7       17
+    housekeeping and transcription                7       12
+    nutrient stress                               6       16
+    function unknown                              6        9
+    metal stress                                  5       14
+    multi-stress                                  5        9
+    uncharacterized TCS stress response           3        3
+    cell morphology and motility                  2        5

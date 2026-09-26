@@ -1,0 +1,106 @@
+Species,Group,Species_locus,Core_locus,Regulator,product_name,Stress_coupled,measures,score,ic_tiebreak,font_size,symbol_size,needs_name,category,shape,label
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS12395,SYNPCC7942_RS04225,Zur,transcriptional repressor,Y,degree+kcore,1.0,1.0,18.5,2.0,,metal stress,oval,Zur
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS08965,,Sycrp1,Crp/Fnr family transcriptional regulator,,degree+kcore,1.0,0.6087,18.0,1.95,,carbon metabolism,oval,Sycrp1
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS01420,SYNPCC7942_RS06230,KaiC,circadian clock protein KaiC,N,kcore,1.0,0.5813,18.0,1.93,,circadian clock,diamond,KaiC
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04890,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,kcore,1.0,0.5014,17.5,1.92,,multi-stress,hexagon,RpaB
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS15520,,NarL1,response regulator transcription factor,,degree+kcore,1.0,0.4872,17.5,1.91,,nutrient stress,hexagon,NarL1
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS10050,SYNPCC7942_RS03325,SigA1,RNA polymerase sigma factor RpoD,N,degree+kcore,1.0,0.4294,17.0,1.86,,housekeeping and transcription,sigma,SigA1
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04650,SYNPCC7942_RS12560,NusB,transcription antitermination factor NusB,N,kcore,1.0,0.4076,17.0,1.85,,housekeeping and transcription,starburst,NusB
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS09320,,Crp2,Crp/Fnr family transcriptional regulator,,kcore,1.0,0.3931,17.0,1.83,,carbon metabolism,oval,Crp2
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS11685,,Xre2,DUF4115 domain-containing protein,,kcore,1.0,0.3788,17.0,1.82,,cell morphology and motility,oval,Xre2
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS05985,SYNPCC7942_RS10040,RbcR,LysR family transcriptional regulator,N,degree,0.403,0.2503,13.5,1.46,,carbon metabolism,oval,RbcR
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04250,SYNPCC7942_RS05195,SphR,response regulator transcription factor,,degree,0.386,0.3143,13.0,1.42,,nutrient stress,hexagon,SphR
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS08390,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,degree,0.378,0.3834,13.0,1.41,,nutrient stress,oval,NtcA
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS01420,SYNPCC7942_RS06230,KaiC,circadian clock protein KaiC,N,betweenness+stress,0.618,0.5813,15.5,1.7,,circadian clock,diamond,KaiC
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS08965,,Sycrp1,Crp/Fnr family transcriptional regulator,,betweenness+stress,0.613,0.6087,15.5,1.69,,carbon metabolism,oval,Sycrp1
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS01800,,SigC,RpoD/SigA family RNA polymerase sigma factor,,betweenness+stress,0.465,0.4089,14.5,1.56,,housekeeping and transcription,sigma,SigC
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS15520,,NarL1,response regulator transcription factor,,betweenness+stress,0.451,0.4872,14.5,1.55,,nutrient stress,hexagon,NarL1
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS11400,,,hypothetical protein,,betweenness+stress,0.393,0.3703,13.5,1.45,Y,function unknown,oval,RS11400
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS05135,SYNPCC7942_RS03260,NusG,transcription termination/antitermination protein NusG,N,betweenness+stress,0.378,0.7982,13.0,1.42,,housekeeping and transcription,starburst,NusG
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS08390,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,betweenness+stress,0.339,0.3834,12.5,1.38,,nutrient stress,oval,NtcA
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS09320,,Crp2,Crp/Fnr family transcriptional regulator,,betweenness+stress,0.278,0.3931,12.5,1.35,,carbon metabolism,oval,Crp2
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS12395,SYNPCC7942_RS04225,Zur,transcriptional repressor,Y,eigenvector,0.847,1.0,16.5,1.79,,metal stress,oval,Zur
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS04890,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,eigenvector,0.487,0.5014,14.5,1.59,,multi-stress,hexagon,RpaB
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS10050,SYNPCC7942_RS03325,SigA1,RNA polymerase sigma factor RpoD,N,eigenvector,0.362,0.4294,13.0,1.4,,housekeeping and transcription,sigma,SigA1
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS01420,SYNPCC7942_RS06230,KaiC,circadian clock protein KaiC,N,eigenvector,0.21,0.5813,12.0,1.32,,circadian clock,diamond,KaiC
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS04650,SYNPCC7942_RS12560,NusB,transcription antitermination factor NusB,N,eigenvector,0.157,0.4076,11.5,1.27,,housekeeping and transcription,starburst,NusB
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS11685,,Xre2,DUF4115 domain-containing protein,,eigenvector,0.153,0.3788,11.5,1.25,,cell morphology and motility,oval,Xre2
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS04250,SYNPCC7942_RS05195,SphR,response regulator transcription factor,,eigenvector,0.082,0.3143,11.0,1.22,,nutrient stress,hexagon,SphR
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS09780,,NarL2,response regulator transcription factor,,eigenvector,0.058,0.254,11.0,1.21,,uncharacterized TCS stress response,hexagon,NarL2
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS09420,,Xre1,helix-turn-helix domain-containing protein,,eigenvector,0.057,0.1958,11.0,1.2,,function unknown,oval,Xre1
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS08965,,Sycrp1,Crp/Fnr family transcriptional regulator,,IC,0.609,0.6087,15.5,1.68,,carbon metabolism,oval,Sycrp1
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS01420,SYNPCC7942_RS06230,KaiC,circadian clock protein KaiC,N,IC,0.581,0.5813,15.5,1.65,,circadian clock,diamond,KaiC
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS04890,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,IC,0.501,0.5014,15.0,1.61,,multi-stress,hexagon,RpaB
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS15520,,NarL1,response regulator transcription factor,,IC,0.487,0.4872,14.5,1.58,,nutrient stress,hexagon,NarL1
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS10050,SYNPCC7942_RS03325,SigA1,RNA polymerase sigma factor RpoD,N,IC,0.429,0.4294,14.0,1.52,,housekeeping and transcription,sigma,SigA1
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS01800,,SigC,RpoD/SigA family RNA polymerase sigma factor,,IC,0.409,0.4089,13.5,1.49,,housekeeping and transcription,sigma,SigC
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS04650,SYNPCC7942_RS12560,NusB,transcription antitermination factor NusB,N,IC,0.408,0.4076,13.5,1.48,,housekeeping and transcription,starburst,NusB
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS03160,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,Y,degree,1.0,0.97,18.0,1.97,,multi-stress,oval,HrcA
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS03465,,Pex,PadR family transcriptional regulator,,degree+kcore,1.0,0.4438,17.5,1.88,,circadian clock,oval,Pex
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS09065,,SigF2,sigma-70 family RNA polymerase sigma factor,,kcore,1.0,0.44,17.5,1.88,,cell morphology and motility,sigma,SigF2
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS03075,SYNPCC7942_RS03075,TetR,TetR/AcrR family transcriptional regulator,N,kcore,1.0,0.4309,17.5,1.87,,circadian clock,oval,TetR
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS09380,SYNPCC7942_RS09380,SigA5,RNA polymerase sigma factor SigC,N,kcore,1.0,0.3845,17.0,1.82,,housekeeping and transcription,sigma,SigA5
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS02830,,SrrB,response regulator transcription factor,,kcore,1.0,0.3645,16.5,1.81,,circadian clock,hexagon,SrrB
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS00455,SYNPCC7942_RS00455,PlmA,GntR family transcriptional regulator,N,degree+kcore,0.8,0.977,16.5,1.77,,carbon metabolism,oval,PlmA
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS07435,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,kcore,0.8,0.6065,16.5,1.76,,multi-stress,hexagon,RpaB
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS10700,SYNPCC7942_RS10700,XylR,ROK family protein,N,degree,0.676,1.0,16.0,1.72,,carbon metabolism,oval,XylR
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS09740,,Xre1,helix-turn-helix transcriptional regulator,,degree,0.493,0.5087,15.0,1.6,,function unknown,oval,Xre1
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS00645,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,degree,0.45,0.6822,14.0,1.55,,nutrient stress,oval,NtcA
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS12560,SYNPCC7942_RS12560,NusB,transcription antitermination factor NusB,N,degree,0.354,0.2484,13.0,1.39,,housekeeping and transcription,starburst,NusB
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS00455,SYNPCC7942_RS00455,PlmA,GntR family transcriptional regulator,N,betweenness+stress,1.0,0.977,18.5,1.98,,carbon metabolism,oval,PlmA
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS10700,SYNPCC7942_RS10700,XylR,ROK family protein,N,betweenness+stress,0.846,1.0,16.5,1.78,,carbon metabolism,oval,XylR
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS00645,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,betweenness+stress,0.555,0.6822,15.0,1.64,,nutrient stress,oval,NtcA
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS09065,,SigF2,sigma-70 family RNA polymerase sigma factor,,betweenness+stress,0.291,0.44,12.5,1.37,,cell morphology and motility,sigma,SigF2
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS03075,SYNPCC7942_RS03075,TetR,TetR/AcrR family transcriptional regulator,N,betweenness+stress,0.194,0.4309,12.0,1.31,,circadian clock,oval,TetR
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS03465,,Pex,PadR family transcriptional regulator,,betweenness+stress,0.174,0.4438,12.0,1.29,,circadian clock,oval,Pex
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS09740,,Xre1,helix-turn-helix transcriptional regulator,,betweenness+stress,0.149,0.5087,11.5,1.25,,function unknown,oval,Xre1
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS10700,SYNPCC7942_RS10700,XylR,ROK family protein,N,eigenvector,0.709,1.0,16.0,1.75,,carbon metabolism,oval,XylR
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS07435,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,eigenvector,0.428,0.6065,14.0,1.51,,multi-stress,hexagon,RpaB
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS00455,SYNPCC7942_RS00455,PlmA,GntR family transcriptional regulator,N,eigenvector,0.414,0.977,14.0,1.5,,carbon metabolism,oval,PlmA
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS09740,,Xre1,helix-turn-helix transcriptional regulator,,eigenvector,0.386,0.5087,13.0,1.43,,function unknown,oval,Xre1
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS00645,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,eigenvector,0.29,0.6822,12.5,1.36,,nutrient stress,oval,NtcA
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS03325,SYNPCC7942_RS03325,SigA1,RNA polymerase sigma factor RpoD,N,eigenvector,0.169,0.3318,12.0,1.28,,housekeeping and transcription,sigma,SigA1
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS00380,,Xre2,helix-turn-helix transcriptional regulator,,eigenvector,0.155,0.3074,11.5,1.26,,function unknown,oval,Xre2
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS06370,,Crp/Fnr,Crp/Fnr family transcriptional regulator,,eigenvector,0.075,0.2721,11.0,1.22,,carbon metabolism,oval,Crp/Fnr
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS10700,SYNPCC7942_RS10700,XylR,ROK family protein,N,IC,1.0,1.0,18.5,1.99,,carbon metabolism,oval,XylR
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS00455,SYNPCC7942_RS00455,PlmA,GntR family transcriptional regulator,N,IC,0.977,0.977,16.5,1.8,,carbon metabolism,oval,PlmA
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS00645,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,IC,0.682,0.6822,16.0,1.74,,nutrient stress,oval,NtcA
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS07435,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,IC,0.607,0.6065,15.5,1.67,,multi-stress,hexagon,RpaB
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS09740,,Xre1,helix-turn-helix transcriptional regulator,,IC,0.509,0.5087,15.0,1.62,,function unknown,oval,Xre1
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS03465,,Pex,PadR family transcriptional regulator,,IC,0.444,0.4438,14.0,1.54,,circadian clock,oval,Pex
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS09065,,SigF2,sigma-70 family RNA polymerase sigma factor,,IC,0.44,0.44,14.0,1.53,,cell morphology and motility,sigma,SigF2
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS03075,SYNPCC7942_RS03075,TetR,TetR/AcrR family transcriptional regulator,N,IC,0.431,0.4309,14.0,1.52,,circadian clock,oval,TetR
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS12430,,KaiC3,circadian clock protein KaiC,,degree+kcore,1.0,0.6401,18.0,1.95,,circadian clock,diamond,KaiC3
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS10605,,Sycrp1,Crp/Fnr family transcriptional regulator,,degree+kcore,1.0,0.5875,18.0,1.94,,carbon metabolism,oval,Sycrp1
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS01980,,IutR2,AraC family transcriptional regulator,,kcore,1.0,0.5067,18.0,1.92,,metal stress,oval,IutR2
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS01955,,IutR1,AraC family transcriptional regulator,,kcore,1.0,0.4816,17.5,1.9,,metal stress,oval,IutR1
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS02020,,IutR3,AraC family transcriptional regulator,,kcore,1.0,0.4725,17.5,1.89,,metal stress,oval,IutR3
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS04450,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,kcore,1.0,0.427,17.0,1.85,,multi-stress,oval,BolA
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS06410,SYNPCC7942_RS05680,Bhl,HU family DNA-binding protein,,degree+kcore,1.0,0.4042,17.0,1.84,,metal stress,oval,Bhl
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS00400,,MocR,PLP-dependent aminotransferase family protein,,degree,0.532,0.3842,15.0,1.63,,function unknown,oval,MocR
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS09285,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,degree,0.404,0.6808,13.5,1.48,,nutrient stress,oval,NtcA
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS17760,SYNPCC7942_RS06230,KaiC1,circadian clock protein KaiC,N,degree,0.39,0.3383,13.5,1.45,,circadian clock,diamond,KaiC1
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS15965,,NarL2/Rre32,response regulator transcription factor,,degree,0.387,0.3213,13.0,1.44,,uncharacterized TCS stress response,hexagon,NarL2/Rre32
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS17395,,,helix-turn-helix domain-containing protein,,degree,0.33,0.3177,12.5,1.38,Y,function unknown,oval,RS17395
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS15805,SYNPCC7942_RS00480,RpaA,two component system response regulator RpaA,N,betweenness+stress,1.0,1.0,18.5,1.98,,circadian clock,hexagon,RpaA
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS09285,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,betweenness+stress,0.801,0.6808,16.5,1.78,,nutrient stress,oval,NtcA
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS10605,,Sycrp1,Crp/Fnr family transcriptional regulator,,betweenness+stress,0.708,0.5875,16.0,1.75,,carbon metabolism,oval,Sycrp1
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS01955,,IutR1,AraC family transcriptional regulator,,betweenness+stress,0.628,0.4816,16.0,1.71,,metal stress,oval,IutR1
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS02020,,IutR3,AraC family transcriptional regulator,,betweenness+stress,0.611,0.4725,15.5,1.68,,metal stress,oval,IutR3
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS01980,,IutR2,AraC family transcriptional regulator,,betweenness+stress,0.579,0.5067,15.0,1.65,,metal stress,oval,IutR2
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS06410,SYNPCC7942_RS05680,Bhl,HU family DNA-binding protein,,betweenness+stress,0.274,0.4042,12.5,1.35,,metal stress,oval,Bhl
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS12005,,CyAbrB1,AbrB family transcriptional regulator,,betweenness+stress,0.274,0.3634,12.5,1.34,,nutrient stress,oval,CyAbrB1
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS12430,,KaiC3,circadian clock protein KaiC,,eigenvector,1.0,0.6401,18.0,1.96,,circadian clock,diamond,KaiC3
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS09285,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,eigenvector,0.271,0.6808,12.0,1.33,,nutrient stress,oval,NtcA
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS10605,,Sycrp1,Crp/Fnr family transcriptional regulator,,eigenvector,0.211,0.5875,12.0,1.32,,carbon metabolism,oval,Sycrp1
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS12595,SYNPCC7942_RS10700,XylR,ROK family protein,N,eigenvector,0.18,0.3691,12.0,1.3,,carbon metabolism,oval,XylR
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS14385,SYNPCC7942_RS09500,Rre28,response regulator transcription factor,Y,eigenvector,0.162,0.4867,11.5,1.28,,uncharacterized TCS stress response,hexagon,Rre28
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS17760,SYNPCC7942_RS06230,KaiC1,circadian clock protein KaiC,N,eigenvector,0.127,0.3383,11.5,1.24,,circadian clock,diamond,KaiC1
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS04725,,NarL1/Rre9,response regulator transcription factor,,eigenvector,0.104,0.2837,11.5,1.23,,multi-stress,hexagon,NarL1/Rre9
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS09285,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,IC,0.681,0.6808,16.0,1.73,,nutrient stress,oval,NtcA
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS12430,,KaiC3,circadian clock protein KaiC,,IC,0.64,0.6401,16.0,1.72,,circadian clock,diamond,KaiC3
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS10605,,Sycrp1,Crp/Fnr family transcriptional regulator,,IC,0.588,0.5875,15.5,1.66,,carbon metabolism,oval,Sycrp1
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS01980,,IutR2,AraC family transcriptional regulator,,IC,0.507,0.5067,15.0,1.62,,metal stress,oval,IutR2
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS01955,,IutR1,AraC family transcriptional regulator,,IC,0.482,0.4816,14.5,1.58,,metal stress,oval,IutR1
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS02020,,IutR3,AraC family transcriptional regulator,,IC,0.473,0.4725,14.5,1.57,,metal stress,oval,IutR3
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS06410,SYNPCC7942_RS05680,Bhl,HU family DNA-binding protein,,IC,0.404,0.4042,13.5,1.47,,metal stress,oval,Bhl

@@ -1,0 +1,50 @@
+Species,Species_locus,Regulator,name_source,category
+Synechocystis sp. PCC 6803,SGL_RS00400,MocR,manual search,function unknown
+Synechocystis sp. PCC 6803,SGL_RS01955,IutR1,"literature, see Table 4",metal stress
+Synechocystis sp. PCC 6803,SGL_RS01980,IutR2,"literature, see Table 4",metal stress
+Synechocystis sp. PCC 6803,SGL_RS02020,IutR3,"literature, see Table 4",metal stress
+Synechocystis sp. PCC 6803,SGL_RS04450,BolA,"curated (Datasets S5, S6)",multi-stress
+Synechocystis sp. PCC 6803,SGL_RS04725,NarL1/Rre9,"manual search (UniProt/CDD, NarL subfamily); numbered by locus order",multi-stress
+Synechocystis sp. PCC 6803,SGL_RS06410,Bhl,"literature, see Table 4",metal stress
+Synechocystis sp. PCC 6803,SGL_RS09285,NtcA,"curated (Datasets S5, S6)",nutrient stress
+Synechocystis sp. PCC 6803,SGL_RS10605,Sycrp1,"literature, see Table 4",carbon metabolism
+Synechocystis sp. PCC 6803,SGL_RS12005,CyAbrB1,"literature, see Table 4",nutrient stress
+Synechocystis sp. PCC 6803,SGL_RS12430,KaiC3,"literature, see Table 4; curated (Dataset S5)",circadian clock
+Synechocystis sp. PCC 6803,SGL_RS12595,XylR,"curated (Datasets S5, S6)",carbon metabolism
+Synechocystis sp. PCC 6803,SGL_RS14385,Rre28,"curated (Datasets S5, S6)",uncharacterized TCS stress response
+Synechocystis sp. PCC 6803,SGL_RS15805,RpaA,"curated (Datasets S5, S6)",circadian clock
+Synechocystis sp. PCC 6803,SGL_RS15965,NarL2/Rre32,"manual search; slr0312, also published as Rre32 (Huokko 2019)",uncharacterized TCS stress response
+Synechocystis sp. PCC 6803,SGL_RS17395,,,function unknown
+Synechocystis sp. PCC 6803,SGL_RS17760,KaiC1,"literature, see Table 4; curated (Dataset S5)",circadian clock
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS01420,KaiC,"literature, see Table 4; curated (Dataset S5)",circadian clock
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS01800,SigC,"Imamura and Asayama 2009, group E sigma factor SigC (SYNPCC7002_A0364); PCC 7942 SigA5 product name also reads SigC, different ortholog group",housekeeping and transcription
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS04250,SphR,"PhoB-like OmpR-family response regulator (CDD TIGR02154); ortholog of PCC 7942 SphR (Synpcc7942_1012) and PCC 6803 SphR (slr0081), 64% identity",nutrient stress
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS04650,NusB,"curated (Datasets S5, S6)",housekeeping and transcription
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS04890,RpaB,"curated (Datasets S5, S6)",multi-stress
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS05135,NusG,"curated (Datasets S5, S6)",housekeeping and transcription
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS05985,RbcR,"curated (Datasets S5, S6)",carbon metabolism
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS08390,NtcA,"ortholog of NtcA, tri-homolog with SYNPCC7942_RS00645 and SGL_RS09285",nutrient stress
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS08965,Sycrp1,"literature, see Table 4",carbon metabolism
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS09320,Crp2,"manual search (CDD), family level",carbon metabolism
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS09420,Xre1,,function unknown
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS09780,NarL2,NarL family (CDD v3.21); numbered within PCC 7002,uncharacterized TCS stress response
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS10050,SigA1,"curated (Datasets S5, S6)",housekeeping and transcription
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS11400,,,function unknown
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS11685,Xre2,"literature, see Table 4",cell morphology and motility
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS12395,Zur,"curated (Datasets S5, S6)",metal stress
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS15520,NarL1,NarL family; numbered within PCC 7002,nutrient stress
+S. elongatus PCC 7942,SYNPCC7942_RS00380,Xre2,manual search (uniprot/CDD); 7942 Xre1 is RS09740,function unknown
+S. elongatus PCC 7942,SYNPCC7942_RS00455,PlmA,"curated (Datasets S5, S6)",carbon metabolism
+S. elongatus PCC 7942,SYNPCC7942_RS00645,NtcA,"curated (Datasets S5, S6)",nutrient stress
+S. elongatus PCC 7942,SYNPCC7942_RS02830,SrrB,"literature, see Table 4",circadian clock
+S. elongatus PCC 7942,SYNPCC7942_RS03075,TetR,"curated (Datasets S5, S6)",circadian clock
+S. elongatus PCC 7942,SYNPCC7942_RS03160,HrcA,"curated (Datasets S5, S6)",multi-stress
+S. elongatus PCC 7942,SYNPCC7942_RS03325,SigA1,"curated (Datasets S5, S6)",housekeeping and transcription
+S. elongatus PCC 7942,SYNPCC7942_RS03465,Pex,"literature, see Table 4",circadian clock
+S. elongatus PCC 7942,SYNPCC7942_RS06370,Crp/Fnr,"manual search (CDD), family level",carbon metabolism
+S. elongatus PCC 7942,SYNPCC7942_RS07435,RpaB,"curated (Datasets S5, S6)",multi-stress
+S. elongatus PCC 7942,SYNPCC7942_RS09065,SigF2,"literature, see Table 4",cell morphology and motility
+S. elongatus PCC 7942,SYNPCC7942_RS09380,SigA5,"curated (Datasets S5, S6)",housekeeping and transcription
+S. elongatus PCC 7942,SYNPCC7942_RS09740,Xre1,"literature, see Table 4",function unknown
+S. elongatus PCC 7942,SYNPCC7942_RS10700,XylR,"curated (Datasets S5, S6)",carbon metabolism
+S. elongatus PCC 7942,SYNPCC7942_RS12560,NusB,"curated (Datasets S5, S6)",housekeeping and transcription

@@ -1,0 +1,5 @@
+"network","nodes","edges","regulators_input","regulators_in_network","regulators_with_targets","regulators_ranked","genes_pct_of_gene_set","edges_per_node","density","clustering","transitivity_global","median_regulator_degree","median_regulator_betweenness","top10_edge_share_pct"
+"core",889,1100,42,38,36,38,65.3,1.24,0.00139,0.109,0.0097,20.5,0.0221,64.8
+"s7942",1978,3500,71,66,66,66,72.9,1.77,0.000895,0.287,0.0134,24.5,0.0142,56.1
+"s6803",2461,3500,74,73,73,73,66.6,1.42,0.000578,0.171,0.0092,33,0.028,40.2
+"s7002",2181,3500,78,78,77,77,66.2,1.6,0.000736,0.209,0.0148,33,0.0127,37.8

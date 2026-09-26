@@ -1,0 +1,15 @@
+"panel","region","count"
+"2B initial","PCC7942",81
+"2B initial","PCC7002",94
+"2B initial","PCC6803",130
+"2B initial","PCC7942&PCC7002",2
+"2B initial","PCC7942&PCC6803",4
+"2B initial","PCC7002&PCC6803",27
+"2B initial","PCC7942&PCC7002&PCC6803",53
+"2D curated","PCC7942",27
+"2D curated","PCC7002",26
+"2D curated","PCC6803",20
+"2D curated","PCC7942&PCC7002",0
+"2D curated","PCC7942&PCC6803",2
+"2D curated","PCC7002&PCC6803",10
+"2D curated","PCC7942&PCC7002&PCC6803",42

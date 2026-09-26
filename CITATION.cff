@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Conserved core gene regulatory network of three cyanobacteria: code and data"
+authors:
+  - family-names: Bohutskyi
+    given-names: Pavlo
+  - family-names: DiMura
+    given-names: Rudolph
+  - family-names: Johnson
+    given-names: Zachary
+  - family-names: Li
+    given-names: Robert
+  - family-names: Anderson
+    given-names: David
+  - family-names: Cheung
+    given-names: Margaret
+license: MIT
+repository-code: "https://github.com/rdimura/cyano-core-GRN"
+preferred-citation:
+  type: article
+  title: "Stress-Related Transcriptional Regulators Enriched in Conserved Core GRN for Three Cyanobacteria: Network Topology Maps the Highest-Influence Nodes as Candidate Engineering Targets"
+  authors:
+    - family-names: Bohutskyi
+      given-names: Pavlo
+    - family-names: DiMura
+      given-names: Rudolph
+    - family-names: Johnson
+      given-names: Zachary
+    - family-names: Li
+      given-names: Robert
+    - family-names: Anderson
+      given-names: David
+    - family-names: Cheung
+      given-names: Margaret
+  journal: "Microbiology Spectrum"
+  year: 2026

@@ -1,0 +1,35 @@
+Species,Group,Species_locus,Core_locus,Regulator,product_name,Stress_coupled,measures,score,ic_tiebreak,font_size,symbol_size,category,shape,label
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS05135,SYNPCC7942_RS03260,NusG,transcription termination/antitermination protein NusG,N,degree+kcore,1.0,0.7982,17.0,2.02,housekeeping and transcription,starburst,NusG
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04780,SYNPCC7942_RS03565,NrdR,transcriptional regulator NrdR,Y,degree,0.515,0.4198,15.0,1.72,multi-stress,oval,NrdR
+Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04890,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,degree,0.489,0.5014,14.0,1.62,multi-stress,hexagon,RpaB
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS12395,SYNPCC7942_RS04225,Zur,transcriptional repressor,Y,betweenness+stress,1.0,1.0,18.5,2.2,metal stress,oval,Zur
+Picosynechococcus sp. PCC 7002,global (betweenness/stress),SYNPCC7002_RS04780,SYNPCC7942_RS03565,NrdR,transcriptional regulator NrdR,Y,betweenness+stress,0.361,0.4198,12.0,1.32,multi-stress,oval,NrdR
+Picosynechococcus sp. PCC 7002,community (eigenvector),SYNPCC7002_RS05135,SYNPCC7942_RS03260,NusG,transcription termination/antitermination protein NusG,N,eigenvector,1.0,0.7982,17.5,2.05,housekeeping and transcription,starburst,NusG
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS12395,SYNPCC7942_RS04225,Zur,transcriptional repressor,Y,IC,1.0,1.0,18.5,2.17,metal stress,oval,Zur
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS05135,SYNPCC7942_RS03260,NusG,transcription termination/antitermination protein NusG,N,IC,0.798,0.7982,15.5,1.78,housekeeping and transcription,starburst,NusG
+Picosynechococcus sp. PCC 7002,integrated (IC),SYNPCC7002_RS04780,SYNPCC7942_RS03565,NrdR,transcriptional regulator NrdR,Y,IC,0.42,0.4198,13.0,1.47,multi-stress,oval,NrdR
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS10700,SYNPCC7942_RS10700,XylR,ROK family protein,N,kcore,0.8,1.0,16.0,1.87,carbon metabolism,oval,XylR
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS03160,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,Y,kcore,0.8,0.97,16.0,1.84,multi-stress,oval,HrcA
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS00645,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,kcore,0.8,0.6822,15.5,1.81,nutrient stress,oval,NtcA
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS07435,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,degree,0.733,0.6065,15.0,1.75,multi-stress,hexagon,RpaB
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS05870,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,degree,0.403,0.494,13.0,1.44,multi-stress,oval,BolA
+S. elongatus PCC 7942,local (degree/k-core),SYNPCC7942_RS07185,SYNPCC7942_RS07185,ManR,response regulator transcription factor,Y,degree,0.376,0.3168,12.5,1.38,metal stress,hexagon,ManR
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS03160,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,Y,betweenness+stress,0.481,0.97,13.5,1.56,multi-stress,oval,HrcA
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS07435,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,betweenness+stress,0.201,0.6065,11.5,1.29,multi-stress,hexagon,RpaB
+S. elongatus PCC 7942,global (betweenness/stress),SYNPCC7942_RS05870,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,betweenness+stress,0.185,0.494,11.5,1.26,multi-stress,oval,BolA
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS03160,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,Y,eigenvector,1.0,0.97,17.5,2.08,multi-stress,oval,HrcA
+S. elongatus PCC 7942,community (eigenvector),SYNPCC7942_RS05870,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,eigenvector,0.373,0.494,12.0,1.35,multi-stress,oval,BolA
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS03160,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,Y,IC,0.97,0.97,16.5,1.93,multi-stress,oval,HrcA
+S. elongatus PCC 7942,integrated (IC),SYNPCC7942_RS05870,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,IC,0.494,0.494,14.5,1.65,multi-stress,oval,BolA
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS15805,SYNPCC7942_RS00480,RpaA,two component system response regulator RpaA,N,degree+kcore,1.0,1.0,18.0,2.11,circadian clock,hexagon,RpaA
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS09285,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,Y,kcore,1.0,0.6808,17.0,1.99,nutrient stress,oval,NtcA
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS14385,SYNPCC7942_RS09500,Rre28,response regulator transcription factor,Y,kcore,1.0,0.4867,16.5,1.96,uncharacterized TCS stress response,hexagon,Rre28
+Synechocystis sp. PCC 6803,local (degree/k-core),SGL_RS10820,SYNPCC7942_RS07805,NtrC,sigma 54-interacting transcriptional regulator,Y,degree,0.44,0.315,13.5,1.53,nutrient stress,oval,NtrC
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS14385,SYNPCC7942_RS09500,Rre28,response regulator transcription factor,Y,betweenness+stress,0.495,0.4867,14.5,1.68,uncharacterized TCS stress response,hexagon,Rre28
+Synechocystis sp. PCC 6803,global (betweenness/stress),SGL_RS04450,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,betweenness+stress,0.384,0.427,12.5,1.41,multi-stress,oval,BolA
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS15805,SYNPCC7942_RS00480,RpaA,two component system response regulator RpaA,N,eigenvector,0.811,1.0,16.0,1.9,circadian clock,hexagon,RpaA
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS03065,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,Y,eigenvector,0.165,0.3642,11.0,1.23,multi-stress,oval,HrcA
+Synechocystis sp. PCC 6803,community (eigenvector),SGL_RS06215,SYNPCC7942_RS03260,NusG,transcription termination/antitermination protein NusG,N,eigenvector,0.094,0.3566,11.0,1.2,housekeeping and transcription,starburst,NusG
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS15805,SYNPCC7942_RS00480,RpaA,two component system response regulator RpaA,N,IC,1.0,1.0,18.0,2.14,circadian clock,hexagon,RpaA
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS14385,SYNPCC7942_RS09500,Rre28,response regulator transcription factor,Y,IC,0.487,0.4867,14.0,1.59,uncharacterized TCS stress response,hexagon,Rre28
+Synechocystis sp. PCC 6803,integrated (IC),SGL_RS04450,SYNPCC7942_RS05870,BolA,BolA family transcriptional regulator,Y,IC,0.427,0.427,13.5,1.5,multi-stress,oval,BolA

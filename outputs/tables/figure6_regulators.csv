@@ -1,0 +1,50 @@
+Species,Species_locus,Regulator,product_name,shape,protein_id,homology,homolog_partners,category,appears_in_cells
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS01420,KaiC,circadian clock protein KaiC,diamond,WP_012305921.1,tri-homolog,SYNPCC7942_RS06230; SGL_RS17760,circadian clock,4
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS04650,NusB,transcription antitermination factor NusB,starburst,WP_012306559.1,tri-homolog,SYNPCC7942_RS12560; SGL_RS11835,housekeeping and transcription,3
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS04890,RpaB,response regulator transcription factor,hexagon,WP_012306606.1,tri-homolog,SYNPCC7942_RS07435; SGL_RS11370,multi-stress,3
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS08965,Sycrp1,Crp/Fnr family transcriptional regulator,oval,WP_012307400.1,bi-homolog with PCC 6803,SGL_RS10605,carbon metabolism,3
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS10050,SigA1,RNA polymerase sigma factor RpoD,sigma,WP_012307623.1,tri-homolog,SYNPCC7942_RS03325; SGL_RS17245,housekeeping and transcription,3
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS15520,NarL1,response regulator transcription factor,hexagon,WP_012305539.1,bi-homolog with PCC 6803,SGL_RS08855,nutrient stress,3
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS01800,SigC,RpoD/SigA family RNA polymerase sigma factor,sigma,WP_012305998.1,species-unique,,housekeeping and transcription,2
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS04250,SphR,response regulator transcription factor,hexagon,WP_012306479.1,tri-homolog,SYNPCC7942_RS05195; SGL_RS15310,nutrient stress,2
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS08390,NtcA,global nitrogen regulator NtcA,oval,WP_232308876.1,tri-homolog,SYNPCC7942_RS00645; SGL_RS09285,nutrient stress,2
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS09320,Crp2,Crp/Fnr family transcriptional regulator,oval,WP_012307472.1,species-unique,,carbon metabolism,2
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS11685,Xre2,DUF4115 domain-containing protein,oval,WP_012307954.1,species-unique,,cell morphology and motility,2
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS12395,Zur,transcriptional repressor,oval,WP_012308094.1,tri-homolog,SYNPCC7942_RS04225; SGL_RS04615,metal stress,2
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS05135,NusG,transcription termination/antitermination protein NusG,starburst,WP_012306657.1,tri-homolog,SYNPCC7942_RS03260; SGL_RS06215,housekeeping and transcription,1
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS05985,RbcR,LysR family transcriptional regulator,oval,WP_012306820.1,tri-homolog,SYNPCC7942_RS10040; SGL_RS04820,carbon metabolism,1
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS09420,Xre1,helix-turn-helix domain-containing protein,oval,WP_041443551.1,species-unique,,function unknown,1
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS09780,NarL2,response regulator transcription factor,hexagon,WP_041443558.1,bi-homolog with PCC 6803,SGL_RS11285,uncharacterized TCS stress response,1
+Picosynechococcus sp. PCC 7002,SYNPCC7002_RS11400,,hypothetical protein,oval,WP_041443604.1,species-unique,,function unknown,1
+S. elongatus PCC 7942,SYNPCC7942_RS00455,PlmA,GntR family transcriptional regulator,oval,WP_011243726.1,tri-homolog,SYNPCC7002_RS03950; SGL_RS08500,carbon metabolism,4
+S. elongatus PCC 7942,SYNPCC7942_RS00645,NtcA,global nitrogen regulator NtcA,oval,WP_011243689.1,tri-homolog,SYNPCC7002_RS08390; SGL_RS09285,nutrient stress,4
+S. elongatus PCC 7942,SYNPCC7942_RS09740,Xre1,helix-turn-helix transcriptional regulator,oval,WP_011244485.1,species-unique,,function unknown,4
+S. elongatus PCC 7942,SYNPCC7942_RS10700,XylR,ROK family protein,oval,WP_011378320.1,tri-homolog,SYNPCC7002_RS12090; SGL_RS12595,carbon metabolism,4
+S. elongatus PCC 7942,SYNPCC7942_RS03075,TetR,TetR/AcrR family transcriptional regulator,oval,WP_011243236.1,tri-homolog,SYNPCC7002_RS06150; SGL_RS05150,circadian clock,3
+S. elongatus PCC 7942,SYNPCC7942_RS03465,Pex,PadR family transcriptional regulator,oval,WP_011377679.1,species-unique,,circadian clock,3
+S. elongatus PCC 7942,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,hexagon,WP_011378039.1,tri-homolog,SYNPCC7002_RS04890; SGL_RS11370,multi-stress,3
+S. elongatus PCC 7942,SYNPCC7942_RS09065,SigF2,sigma-70 family RNA polymerase sigma factor,sigma,WP_234701778.1,species-unique,,cell morphology and motility,3
+S. elongatus PCC 7942,SYNPCC7942_RS00380,Xre2,helix-turn-helix transcriptional regulator,oval,WP_011243739.1,species-unique,,function unknown,1
+S. elongatus PCC 7942,SYNPCC7942_RS02830,SrrB,response regulator transcription factor,hexagon,WP_011243277.1,species-unique,,circadian clock,1
+S. elongatus PCC 7942,SYNPCC7942_RS03160,HrcA,heat-inducible transcriptional repressor HrcA,oval,WP_011243220.1,tri-homolog,SYNPCC7002_RS09995; SGL_RS03065,multi-stress,1
+S. elongatus PCC 7942,SYNPCC7942_RS03325,SigA1,RNA polymerase sigma factor RpoD,sigma,WP_011377664.1,tri-homolog,SYNPCC7002_RS10050; SGL_RS17245,housekeeping and transcription,1
+S. elongatus PCC 7942,SYNPCC7942_RS06370,Crp/Fnr,Crp/Fnr family transcriptional regulator,oval,WP_011242621.1,species-unique,,carbon metabolism,1
+S. elongatus PCC 7942,SYNPCC7942_RS09380,SigA5,RNA polymerase sigma factor SigC,sigma,WP_011244555.1,tri-homolog,SYNPCC7002_RS01335; SGL_RS14610,housekeeping and transcription,1
+S. elongatus PCC 7942,SYNPCC7942_RS12560,NusB,transcription antitermination factor NusB,starburst,WP_011243943.1,tri-homolog,SYNPCC7002_RS04650; SGL_RS11835,housekeeping and transcription,1
+Synechocystis sp. PCC 6803,SGL_RS09285,NtcA,global nitrogen regulator NtcA,oval,WP_010872636.1,tri-homolog,SYNPCC7942_RS00645; SYNPCC7002_RS08390,nutrient stress,4
+Synechocystis sp. PCC 6803,SGL_RS10605,Sycrp1,Crp/Fnr family transcriptional regulator,oval,WP_010872882.1,bi-homolog with PCC 7002,SYNPCC7002_RS08965,carbon metabolism,4
+Synechocystis sp. PCC 6803,SGL_RS01955,IutR1,AraC family transcriptional regulator,oval,WP_010871223.1,species-unique,,metal stress,3
+Synechocystis sp. PCC 6803,SGL_RS01980,IutR2,AraC family transcriptional regulator,oval,WP_010871228.1,species-unique,,metal stress,3
+Synechocystis sp. PCC 6803,SGL_RS02020,IutR3,AraC family transcriptional regulator,oval,WP_223211316.1,bi-homolog with PCC 7002,SYNPCC7002_RS15720,metal stress,3
+Synechocystis sp. PCC 6803,SGL_RS06410,Bhl,HU family DNA-binding protein,oval,WP_014407089.1,tri-homolog,SYNPCC7942_RS05680; SYNPCC7002_RS09820,metal stress,3
+Synechocystis sp. PCC 6803,SGL_RS12430,KaiC3,circadian clock protein KaiC,diamond,WP_010873229.1,species-unique,,circadian clock,3
+Synechocystis sp. PCC 6803,SGL_RS17760,KaiC1,circadian clock protein KaiC,diamond,WP_010874243.1,tri-homolog,SYNPCC7942_RS06230; SYNPCC7002_RS01420,circadian clock,2
+Synechocystis sp. PCC 6803,SGL_RS00400,MocR,PLP-dependent aminotransferase family protein,oval,WP_041428264.1,bi-homolog with PCC 7942,SYNPCC7942_RS08780,function unknown,1
+Synechocystis sp. PCC 6803,SGL_RS04450,BolA,BolA family transcriptional regulator,oval,WP_010871705.1,tri-homolog,SYNPCC7942_RS05870; SYNPCC7002_RS02715,multi-stress,1
+Synechocystis sp. PCC 6803,SGL_RS04725,NarL1/Rre9,response regulator transcription factor,hexagon,WP_010871759.1,bi-homolog with PCC 7002,SYNPCC7002_RS12515,multi-stress,1
+Synechocystis sp. PCC 6803,SGL_RS12005,CyAbrB1,AbrB family transcriptional regulator,oval,WP_010873149.1,species-unique,,nutrient stress,1
+Synechocystis sp. PCC 6803,SGL_RS12595,XylR,ROK family protein,oval,WP_010873261.1,tri-homolog,SYNPCC7942_RS10700; SYNPCC7002_RS12090,carbon metabolism,1
+Synechocystis sp. PCC 6803,SGL_RS14385,Rre28,response regulator transcription factor,hexagon,WP_010873602.1,tri-homolog,SYNPCC7942_RS09500; SYNPCC7002_RS15995,uncharacterized TCS stress response,1
+Synechocystis sp. PCC 6803,SGL_RS15805,RpaA,two component system response regulator RpaA,hexagon,WP_010873880.1,tri-homolog,SYNPCC7942_RS00480; SYNPCC7002_RS06540,circadian clock,1
+Synechocystis sp. PCC 6803,SGL_RS15965,NarL2/Rre32,response regulator transcription factor,hexagon,WP_010873909.1,species-unique,,uncharacterized TCS stress response,1
+Synechocystis sp. PCC 6803,SGL_RS17395,,helix-turn-helix domain-containing protein,oval,WP_010874178.1,species-unique,,function unknown,1
