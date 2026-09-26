@@ -15,7 +15,7 @@ authors:
   - family-names: Cheung
     given-names: Margaret
 license: MIT
-repository-code: "https://github.com/rdimura/cyano-core-GRN"
+repository-code: "https://github.com/PBohutskyi/cyano-core-GRN"
 preferred-citation:
   type: article
   title: "Stress-Related Transcriptional Regulators Enriched in Conserved Core GRN for Three Cyanobacteria: Network Topology Maps the Highest-Influence Nodes as Candidate Engineering Targets"
