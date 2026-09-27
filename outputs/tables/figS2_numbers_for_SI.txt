@@ -1,4 +1,4 @@
-Supplementary Figure S2 source numbers (12_figureS2_species_stability.R)
+Supplementary Figure S2 source numbers (13_figureS2_species_stability.R)
   PCC 7942: representative network 1978 nodes, 3500 edges, 66 regulators ranked
   PCC 6803: representative network 2461 nodes, 3500 edges, 73 regulators ranked
   PCC 7002: representative network 2181 nodes, 3500 edges, 77 regulators ranked

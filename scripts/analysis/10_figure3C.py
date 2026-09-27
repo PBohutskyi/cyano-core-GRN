@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-09_figure3C.py
+10_figure3C.py
 
 Figure 3C: dendrogram of the core GRN regulators by Jaccard distance between
 their target sets (average linkage), with their centrality values below it.

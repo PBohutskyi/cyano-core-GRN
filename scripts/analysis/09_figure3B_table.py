@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """
-08_figure3B_table.py
+09_figure3B_table.py
 
 Figure 3B table. Rows are Louvain clusters, ordered by the IC of the
 highest-ranked regulator in each; the cluster with no module (0, shown as n/a)
 is the last row. A cluster holding several regulators is written as
-"Lead (other, other)" with the IC values in the same order. COG letters are
-not in the inputs and are set below, keyed by one regulator in each cluster.
+"Lead (other, other)" with the IC values in the same order. The COG column
+lists the COG categories enriched in each community (q < 0.05), read from
+08_community_enrichment.R. The n/a row groups regulators outside any module
+and shows their own COG category, K (transcription).
 
 Inputs : outputs/tables/centralities_core.csv   (05_centralities.R)
+         outputs/tables/community_enrichment_significant.csv (08_community_enrichment.R)
          curation/core_regulator_curation.csv
          curation/S6_source_annotation.xlsx     Louvain cluster of each regulator
 Output : outputs/tables/figure3B_table.xlsx
@@ -19,20 +22,18 @@ import sys
 
 import pandas as pd
 
-# COG letters, keyed by a regulator that sits in the cluster.
-COG = {"CyAbrB2": "C", "DnaA": "F", "XylR": "G", "NtcA": "M",
-       "RpaB": "C, F", "BolA": "J", "TetR": "C, F", "NusG": "J",
-       "SigA1": "J", "NusA": "J", "NtcB": "K"}
+NA_COG = "K"   # own COG category of the regulators outside any module
 
 CENT    = os.path.join("outputs", "tables", "centralities_core.csv")
 CURCORE = os.path.join("curation", "core_regulator_curation.csv")
 S6SRC   = os.path.join("curation", "S6_source_annotation.xlsx")
+ENRICH  = os.path.join("outputs", "tables", "community_enrichment_significant.csv")
 TAB   = os.path.join("outputs", "tables")
 SHEET = "S6-2. Transcription regulators"
 
 
 def main():
-    for p in (CENT, CURCORE, S6SRC):
+    for p in (CENT, CURCORE, S6SRC, ENRICH):
         if not os.path.exists(p):
             sys.exit("Input not found: %s" % p)
     os.makedirs(TAB, exist_ok=True)
@@ -51,13 +52,11 @@ def main():
         sys.exit("Sheet %s is missing columns: %s" % (SHEET, ", ".join(missing)))
     print("read centralities, curation and Louvain clusters: %d regulators" % len(d))
 
-    cog_by_cluster = {}
-    for tf, letter in COG.items():
-        hit = d.loc[d.TF_name == tf, "Louvain_cluster"]
-        if len(hit):
-            cog_by_cluster[int(hit.iloc[0])] = letter
-        else:
-            print("NOTE: %s not found, its COG letter is unused" % tf)
+    # enriched COG categories per community, most significant first
+    en = pd.read_csv(ENRICH)
+    en = en[en.source == "COG"].sort_values(["community", "p_value"])
+    cog_by_cluster = {int(c): ", ".join(g.term) for c, g in en.groupby("community")}
+    cog_by_cluster[0] = NA_COG
 
     rows = []
     for cl, grp in d.groupby("Louvain_cluster"):

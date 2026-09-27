@@ -8,7 +8,8 @@
 #          outputs/tables/seed_outdegree_core.csv, seed_outdegree_species.csv
 #          outputs/tables/seed_centralities_core.csv, fig4_D_top15_recurrence.csv,
 #          fig4_E_stress_by_seed.csv, fig4_B_outdegree.csv, centralities_core.csv
-#          (scripts 05, 11, 12)
+#          (scripts 05, 12, 13, 14)
+#          outputs/tables/network_recurrence_summary.csv (script 14)
 # Output : datasets/Dataset_S8_Seeded_run_stability.xlsx
 
 source("scripts/common.R")
@@ -21,7 +22,8 @@ SHEETS <- c(legend = "S8-0. Legend",
             od     = "S8-2. Regulator out-degree",
             cent   = "S8-3. Core per-seed centrality",
             rec    = "S8-4. Core top-15 recurrence",
-            enr    = "S8-5. Core stress enrichment")
+            enr    = "S8-5. Core stress enrichment",
+            nrec   = "S8-6. Network recurrence")
 ## Excel rejects sheet names longer than 31 characters
 stopifnot(all(nchar(SHEETS) <= 31))
 
@@ -32,7 +34,7 @@ for (f in c("fig4_A_edge_overlap.csv", "figS2_A_edge_overlap.csv",
             "seed_outdegree_core.csv", "seed_outdegree_species.csv",
             "fig4_B_outdegree.csv", "fig4_D_top15_recurrence.csv",
             "fig4_E_stress_by_seed.csv", "seed_centralities_core.csv",
-            "centralities_core.csv")) need(o(f))
+            "centralities_core.csv", "network_recurrence_summary.csv")) need(o(f))
 
 ## ---------------------------------------------------------------------------
 ## S8-1. Edge overlap between runs (Figure 4A, Figure S2A)
@@ -91,7 +93,7 @@ cat(sprintf("out-degree: %d regulators across %d networks\n", nrow(od), length(N
 ## ---------------------------------------------------------------------------
 ## S8-3. Per-seed centralities, core GRN
 ## ---------------------------------------------------------------------------
-## Computed in 11_figure4_core_stability.R with the functions used for the
+## Computed in 12_figure4_core_stability.R with the functions used for the
 ## networks of record, so S8-3 and S7-1 are directly comparable.
 cent <- read.csv(o("seed_centralities_core.csv"), stringsAsFactors = FALSE,
                  check.names = FALSE)
@@ -149,6 +151,21 @@ cat(sprintf("stress enrichment: representative %d of %d (p = %s), seeded median 
             sum(E$p < 0.05), length(SEEDS)))
 
 ## ---------------------------------------------------------------------------
+## S8-6. Recurrence of each network of record in its seeded runs
+## ---------------------------------------------------------------------------
+R6 <- read.csv(o("network_recurrence_summary.csv"), stringsAsFactors = FALSE)
+nrec <- data.frame(
+  Network = R6$network,
+  Edges_in_network_of_record = R6$representative_edges,
+  Edges_recurring_in_at_least_1_run_percent = R6$edges_in_at_least_1_run_percent,
+  Edges_recurring_in_at_least_5_runs_percent = R6$edges_in_at_least_5_runs_percent,
+  Edges_recurring_in_all_10_runs_percent = R6$edges_in_all_10_runs_percent,
+  Gene_overlap_median_percent = R6$node_overlap_median_percent,
+  Regulator_overlap_median_percent = R6$regulator_overlap_median_percent,
+  stringsAsFactors = FALSE)
+stopifnot(nrow(nrec) == length(NETWORKS))
+
+## ---------------------------------------------------------------------------
 ## Legend
 ## ---------------------------------------------------------------------------
 legend <- rbind(
@@ -162,6 +179,7 @@ legend <- rbind(
   c(SHEETS[["cent"]], sprintf("Centrality measures, normalized values, Integrated Centrality and IC rank for the core GRN regulators in each of the %d seeded runs. Computed with the same functions as Dataset S7, so the two are directly comparable.", length(SEEDS))),
   c(SHEETS[["rec"]],  sprintf("How many of the %d seeded runs place each core regulator in the top %d by IC, with the range of its rank across runs.", length(SEEDS), TOPN)),
   c(SHEETS[["enr"]],  sprintf("Number of stress-coupled regulators among the top %d by IC in each seeded run and in the network of record, with the hypergeometric test against a pool of %d regulators of which %d are stress-coupled.", TOPN, N, K)),
+  c(SHEETS[["nrec"]], sprintf("How much of each network of record recurs in its %d seeded runs: the percentage of its edges found in at least 1, at least 5 and all %d runs, and the median overlap of its genes and of its regulators with each seeded run.", length(SEEDS), length(SEEDS))),
   c("", ""),
   c("Column", "Definition"),
   c("Network", "Core GRN or the species network the row refers to."),
@@ -177,7 +195,9 @@ legend <- rbind(
   c("Seed_rank_min, Seed_rank_median, Seed_rank_max", "Range and median of the regulator's IC rank across the seeded runs in which it was ranked."),
   c("Stress_coupled", "Y if a stress role is assigned to the regulator in Dataset S6, N otherwise."),
   c("Expected_at_random", sprintf("Stress-coupled regulators expected among %d drawn at random from the pool, that is %d x %d / %d.", TOPN, TOPN, K, N)),
-  c("Hypergeometric_p", "One-sided probability of observing at least this many stress-coupled regulators by chance.")
+  c("Hypergeometric_p", "One-sided probability of observing at least this many stress-coupled regulators by chance."),
+  c("Edges_recurring_in_...", "Edges of the network of record (regulator-target pairs) that are also present in the given number of pruned seeded runs, as a percentage of its edges."),
+  c("Gene_overlap_median_percent, Regulator_overlap_median_percent", "Genes, or regulators (nodes with targets), present in both the network of record and a seeded run, as a percentage of the mean count of the two; median across the seeded runs.")
 )
 legend <- as.data.frame(legend, stringsAsFactors = FALSE); names(legend) <- NULL
 
@@ -195,13 +215,14 @@ add_table <- function(name, d) {
 }
 addWorksheet(wb, SHEETS[["legend"]])
 writeData(wb, SHEETS[["legend"]], legend, colNames = FALSE, rowNames = FALSE)
-addStyle(wb, SHEETS[["legend"]], hs, rows = c(1, 5, 12), cols = 1:2, gridExpand = TRUE)
+addStyle(wb, SHEETS[["legend"]], hs, rows = c(1, 5, 13), cols = 1:2, gridExpand = TRUE)
 setColWidths(wb, SHEETS[["legend"]], cols = 1:2, widths = c(40, 120))
 add_table(SHEETS[["ov"]],   ov)
 add_table(SHEETS[["od"]],   od)
 add_table(SHEETS[["cent"]], cent)
 add_table(SHEETS[["rec"]],  rec)
 add_table(SHEETS[["enr"]],  enr)
+add_table(SHEETS[["nrec"]], nrec)
 saveWorkbook(wb, OUT, overwrite = TRUE)
 
 stopifnot(nrow(read.xlsx(OUT, sheet = SHEETS[["ov"]]))   == nrow(ov),

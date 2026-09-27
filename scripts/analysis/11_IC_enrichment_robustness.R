@@ -1,4 +1,4 @@
-# 10_IC_enrichment_robustness.R
+# 11_IC_enrichment_robustness.R
 # Enrichment of stress-coupled regulators among the top-ranked core regulators
 # (Dataset S6-5) and robustness of the IC ranking (Dataset S6-4).
 #   S6-4  leave-one-measure-out, correlation of each measure with IC, dominance

@@ -1,4 +1,4 @@
-# 11_figure4_core_stability.R
+# 12_figure4_core_stability.R
 # Figure 4: reproducibility of the core GRN result across GENIE3 runs. The core
 # network of record is compared with ten seeded runs of the same pipeline on
 # the same input. All seeded networks are pruned exactly as the network of
@@ -398,7 +398,7 @@ con <- file(o("fig4_numbers_for_SI.txt"), "w")
 w <- function(...) { cat(..., "\n", sep = "", file = con); cat(..., "\n", sep = "") }
 qs <- function(v) sprintf("%.1f%% (IQR %.1f to %.1f)", median(v),
                           quantile(v, 0.25), quantile(v, 0.75))
-w("Figure 4 source numbers, core GRN (11_figure4_core_stability.R)")
+w("Figure 4 source numbers, core GRN (12_figure4_core_stability.R)")
 w("Representative network ", vcount(g_rep), " nodes, ", length(e_rep), " edges; ",
   length(SEEDS), " seeded runs of the same pipeline")
 w("")

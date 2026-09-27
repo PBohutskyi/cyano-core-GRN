@@ -1,4 +1,4 @@
-# 13_crossvalidation.R
+# 15_crossvalidation.R
 # Cross-validation of high-influence core regulators against the three species
 # networks (Figure 5), and its sensitivity to the rank cutoffs.
 # A regulator is cross-validated when it reaches the core top k on one measure

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-14_figures5_6.py
+16_figures5_6.py
 
 Symbol tables behind Figure 5 (cross-validated regulators) and Figure 6
 (high-influence species regulators that are not cross-validated), with the
 counts given in the captions. Cutoffs and measures are those of
-13_crossvalidation.R: core top 12 and species top 10 per measure, ties broken
+15_crossvalidation.R: core top 12 and species top 10 per measure, ties broken
 by IC.
 
 A placement is one regulator in one cell (species x measure group). Figure 5
@@ -36,7 +36,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-CORE_K, SPECIES_N = 12, 10          # as in 13_crossvalidation.R
+CORE_K, SPECIES_N = 12, 10          # as in 15_crossvalidation.R
 FONT_MIN, FONT_MAX = 11.0, 18.5      # font size of the regulator name
 FONT_STEP = 0.5
 SYM_MIN            = 1.2             # symbol size
@@ -126,7 +126,7 @@ def core_category(stress_cat, non_stress_cat):
 
 def top_by(df, col, n):
     x = pd.to_numeric(df[col], errors="coerce").fillna(0.0)
-    # ties broken by IC, as in 13_crossvalidation.R
+    # ties broken by IC, as in 15_crossvalidation.R
     ic = pd.to_numeric(df["IC"], errors="coerce").fillna(0.0)
     order = (pd.DataFrame({"v": x, "ic": ic})
                .sort_values(["v", "ic"], ascending=False, kind="stable").index)

@@ -1,4 +1,4 @@
-Figure 4 source numbers, core GRN (11_figure4_core_stability.R)
+Figure 4 source numbers, core GRN (12_figure4_core_stability.R)
 Representative network 889 nodes, 1100 edges; 10 seeded runs of the same pipeline
 
 A. Shared edges, representative vs each seeded run: 77.3% (IQR 77.0 to 77.3)

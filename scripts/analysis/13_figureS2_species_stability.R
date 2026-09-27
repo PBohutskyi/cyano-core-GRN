@@ -1,4 +1,4 @@
-# 12_figureS2_species_stability.R
+# 13_figureS2_species_stability.R
 # Supplementary Figure S2: reproducibility of the species GRN results across
 # GENIE3 runs, the species counterpart of Figure 4. Each species network of
 # record is compared with ten seeded runs of the same pipeline on the same
@@ -229,7 +229,7 @@ write.csv(Fd, o("figS2_E_topn_recovery.csv"), row.names = FALSE)
 ## The cross-validation (Figure 5) identifies regulators shared between the
 ## networks of record. This panel asks whether the sharing survives resampling
 ## of the species network. The ortholog map is the one used by
-## 13_crossvalidation.R.
+## 15_crossvalidation.R.
 ortho <- ortholog_map()
 core_rep <- read.csv(o("centralities_core.csv"), stringsAsFactors = FALSE)
 ## core top TOPN, translated into each species' locus tags
@@ -581,7 +581,7 @@ con <- file(o("figS2_numbers_for_SI.txt"), "w")
 w <- function(...) { cat(..., "\n", sep = "", file = con); cat(..., "\n", sep = "") }
 qs <- function(v) sprintf("%.1f%% (IQR %.1f to %.1f)", median(v),
                           quantile(v, 0.25), quantile(v, 0.75))
-w("Supplementary Figure S2 source numbers (12_figureS2_species_stability.R)")
+w("Supplementary Figure S2 source numbers (13_figureS2_species_stability.R)")
 for (nm in SPECIES)
   w("  ", SP_LAB[nm], ": representative network ", vcount(g_rep[[nm]]), " nodes, ",
     length(e_rep[[nm]]), " edges, ", nrow(rep_tab[[nm]]), " regulators ranked")

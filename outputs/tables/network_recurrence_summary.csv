@@ -1,0 +1,5 @@
+"network","representative_edges","edges_in_at_least_1_run_percent","edges_in_at_least_5_runs_percent","edges_in_all_10_runs_percent","node_overlap_median_percent","regulator_overlap_median_percent"
+"Core GRN",1100,97.6,82.2,46.2,86.6,97.2
+"S. elongatus PCC 7942",3500,98.7,92.2,71.7,95.9,98.5
+"Synechocystis sp. PCC 6803",3500,98.1,86.1,51.5,90,99.3
+"Picosynechococcus sp. PCC 7002",3500,96.6,80,36.4,88.6,99.3

@@ -49,7 +49,7 @@ The core GRN was inferred from 1,312 genes and 42 regulators, giving 55,062 regu
 
 ## Rerunning GENIE3
 
-Step 00 of the pipeline regenerates the 40 seeded runs from the expression data and checks each against the shipped run; the analysis then continues with steps 01 to 14:
+Step 00 of the pipeline regenerates the 40 seeded runs from the expression data and checks each against the shipped run; the analysis then continues with steps 01 to 16:
 
 ```
 bash run_all.sh --genie3

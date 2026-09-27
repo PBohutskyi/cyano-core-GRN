@@ -8,7 +8,7 @@
 #          curation/core_regulator_curation.csv   names and classification
 #          curation/S6_source_annotation.xlsx     gene and edge annotation
 #          outputs/tables/centralities_core.csv, S6-4 to S6-7 tables,
-#          xval_instances.csv                     (scripts 05, 10, 13)
+#          xval_instances.csv                     (scripts 05, 11, 15)
 # Output : datasets/Dataset_S6_Core_GRN_nodes_TFs_and_edges.xlsx
 
 source("scripts/common.R")
@@ -154,7 +154,7 @@ stopifnot(!any(is.na(edges$Regulator_name)), !any(is.na(edges$Regulator_Louvain_
           length(unique(edges$Regulator_locus_tag)) == 36)
 
 ## ---------------------------------------------------------------------------
-## 5. S6-4 to S6-7: tables from 10_IC_enrichment_robustness.R and 13_crossvalidation.R
+## 5. S6-4 to S6-7: tables from 11_IC_enrichment_robustness.R and 15_crossvalidation.R
 ## ---------------------------------------------------------------------------
 read_block <- function(f) {
   d <- read.csv(file.path(IN, f), stringsAsFactors = FALSE, check.names = FALSE,

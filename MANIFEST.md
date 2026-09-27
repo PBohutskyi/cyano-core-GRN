@@ -13,13 +13,15 @@ Scripts in run order (`run_all.sh`). Paths are relative to the repository root. 
 | `05_centralities.R` | `networks/*/network_of_record.graphml`, `networks/*/seeded/`; curation | `tables/centralities_{core,s7942,s6803,s7002}.csv` | IC rankings; Dataset S7 |
 | `06_table3_network_properties.R` | networks of record; regulator lists; Dataset S3; gene lists | `tables/table3_network_properties.csv` | Table 3; core GRN properties in Results |
 | `07_louvain_check.py` | core network of record | `tables/louvain_modules.csv`, `louvain_agreement.csv`, `louvain_run_log.txt` | Louvain modules of Figure 3A |
-| `08_figure3B_table.py` | `tables/centralities_core.csv`; curation | `tables/figure3B_table.xlsx` | Figure 3B |
-| `09_figure3C.py` | core network of record; `tables/centralities_core.csv`; curation | `figures/fig3C_assembled`; `tables/fig3C_values.csv`, `fig3C_leaf_order.txt` | Figure 3C |
-| `10_IC_enrichment_robustness.R` | `tables/centralities_core.csv`; curation | `tables/S6-4_IC_robustness.csv`, `S6-5_IC_enrichment.csv`, `core_top20_IC.csv` | Top-15 enrichment; Dataset S6-4, S6-5 |
-| `11_figure4_core_stability.R` | core network of record and seeded runs; `tables/centralities_core.csv` | `figures/fig4_*`; `tables/fig4_*.csv`, `seed_centralities_core.csv`, `seed_outdegree_core.csv`, `fig4_numbers_for_SI.txt` | Figure 4; Dataset S8 |
-| `12_figureS2_species_stability.R` | species networks of record and seeded runs; centrality tables; curated S5-4 | `figures/figS2_*`; `tables/figS2_*.csv`, `seed_centralities_species.csv`, `seed_outdegree_species.csv`, `figS2_numbers_for_SI.txt` | Figure S2; Dataset S8 |
-| `13_crossvalidation.R` | centrality tables; curated S5-4; curation | `tables/S6-6_xval_enrichment.csv`, `S6-7_xval_sensitivity.csv`, `xval_instances.csv` | Cross-validation; Dataset S6-6 to S6-8 |
-| `14_figures5_6.py` | centrality tables; `tables/ortholog_groups.csv`; curation | `tables/figure5_symbols.csv`, `figure6_symbols.csv`, `figure6_regulators.csv`, `figure56_counts.txt` | Figures 5 and 6 (placements) |
+| `08_community_enrichment.R` | core network of record (Louvain communities); `reference/ref_protein_coding_7942.csv`; curation | `tables/community_enrichment.csv`, `community_enrichment_significant.csv` | COG and KEGG enrichment of the communities: Figure 3B, Results 3.4.1 |
+| `09_figure3B_table.py` | `tables/centralities_core.csv`, `community_enrichment_significant.csv`; curation | `tables/figure3B_table.xlsx` | Figure 3B |
+| `10_figure3C.py` | core network of record; `tables/centralities_core.csv`; curation | `figures/fig3C_assembled`; `tables/fig3C_values.csv`, `fig3C_leaf_order.txt` | Figure 3C |
+| `11_IC_enrichment_robustness.R` | `tables/centralities_core.csv`; curation | `tables/S6-4_IC_robustness.csv`, `S6-5_IC_enrichment.csv`, `core_top20_IC.csv` | Top-15 enrichment; Dataset S6-4, S6-5 |
+| `12_figure4_core_stability.R` | core network of record and seeded runs; `tables/centralities_core.csv` | `figures/fig4_*`; `tables/fig4_*.csv`, `seed_centralities_core.csv`, `seed_outdegree_core.csv`, `fig4_numbers_for_SI.txt` | Figure 4; Dataset S8 |
+| `13_figureS2_species_stability.R` | species networks of record and seeded runs; centrality tables; curated S5-4 | `figures/figS2_*`; `tables/figS2_*.csv`, `seed_centralities_species.csv`, `seed_outdegree_species.csv`, `figS2_numbers_for_SI.txt` | Figure S2; Dataset S8 |
+| `14_network_recurrence.R` | networks of record and seeded runs | `tables/edge_recurrence.csv`, `network_recurrence_summary.csv` | Recurrence of each network in its seeded runs; Dataset S8-6 |
+| `15_crossvalidation.R` | centrality tables; curated S5-4; curation | `tables/S6-6_xval_enrichment.csv`, `S6-7_xval_sensitivity.csv`, `xval_instances.csv` | Cross-validation; Dataset S6-6 to S6-8 |
+| `16_figures5_6.py` | centrality tables; `tables/ortholog_groups.csv`; curation | `tables/figure5_symbols.csv`, `figure6_symbols.csv`, `figure6_regulators.csv`, `figure56_counts.txt` | Figures 5 and 6 (placements) |
 
 ## Datasets
 
