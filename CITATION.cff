@@ -15,8 +15,8 @@ authors:
   - family-names: Cheung
     given-names: Margaret
 license: MIT
-doi: 10.5281/zenodo.22983719
-version: "v1.0"
+doi: 10.5281/zenodo.23002537
+version: "v1.1"
 repository-code: "https://github.com/PBohutskyi/cyano-core-GRN"
 preferred-citation:
   type: article

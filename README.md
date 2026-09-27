@@ -4,7 +4,7 @@ Code and data for:
 
 > Bohutskyi P, DiMura R, Johnson Z, Li R, Anderson D, Cheung M. Stress-related transcriptional regulators enriched in conserved core GRN for three cyanobacteria: network topology maps the highest-influence nodes as candidate engineering targets. *Microbiology Spectrum* (under review, manuscript Spectrum01958-26).
 
-Archived release: v1.0, https://doi.org/10.5281/zenodo.22983719
+Archived release: v1.1, https://doi.org/10.5281/zenodo.23002537
 
 The repository reproduces every table, figure and Supplementary Dataset S5 to S8 of the paper from the networks of record and the curated inputs, in about two minutes. It also holds the expression data and the script to rerun the seeded GENIE3 inference.
 
