@@ -1,6 +1,6 @@
 # build_dataset_S7.R
 # Dataset S7: centrality measures, Integrated Centrality and seeded-run
-# statistics for the ranked regulators of the four networks of record.
+# statistics for the ranked regulators of the four representative networks.
 #
 # Inputs : outputs/tables/centralities_{core,s7942,s6803,s7002}.csv  (05_centralities.R)
 # Output : datasets/Dataset_S7_Centrality_and_stability.xlsx
@@ -18,6 +18,8 @@ tabs <- lapply(names(NETS), function(nm) {
   read.csv(f, stringsAsFactors = FALSE, check.names = FALSE)
 })
 names(tabs) <- names(NETS)
+## "stress-coupled" is the label used for the enrichment set throughout
+tabs <- lapply(tabs, function(d) { names(d)[names(d) == "stress_related"] <- "stress_coupled"; d })
 
 legend <- rbind(
   c("Dataset S7. Centrality measures and Integrated Centrality of the regulators in the core GRN and the three species GRNs", ""),
@@ -31,7 +33,7 @@ legend <- rbind(
   c("Column", "Definition"),
   c("locus_tag", "RefSeq locus tag."),
   c("TF_name", "Regulator name, where one is assigned (Dataset S5, Dataset S6-2)."),
-  c("stress_related, stress_category", "Core GRN only: yes if a stress role is assigned (stress-coupled), and that role (Dataset S6-2)."),
+  c("stress_coupled, stress_category", "Core GRN only: yes if a stress role is assigned, and that role (Dataset S6-2)."),
   c("degree", "Number of edges touching the regulator."),
   c("kcore", "Largest k such that the regulator belongs to the k-core of the undirected network."),
   c("betweenness", "Number of shortest directed paths through the regulator, each weighted by 1 / number of equivalent shortest paths."),
@@ -39,7 +41,7 @@ legend <- rbind(
   c("stress", "Number of shortest directed paths through the regulator."),
   c("*_norm", "Measure divided by its maximum across the ranked regulators of that network."),
   c("IC", "Integrated Centrality, Eq. 2: sum of the five *_norm values."),
-  c("*_seedmean, *_seedsd", "Mean and standard deviation of the value across ten GENIE3 runs with fixed seeds, pruned as the network of record; a regulator absent from a run counts as 0."),
+  c("*_seedmean, *_seedsd", "Mean and standard deviation of the value across ten GENIE3 runs with fixed seeds, pruned as the representative network; a regulator absent from a run counts as 0."),
   c("IC_rank", "Rank by IC; 1 = highest."),
   c("IC_z_vs_seeds", "(IC - IC_seedmean) / IC_seedsd.")
 )

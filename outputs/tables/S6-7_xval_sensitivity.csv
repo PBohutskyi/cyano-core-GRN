@@ -6,7 +6,7 @@
 "Pool: 38 regulators, 17 stress-coupled","","","","","",""
 "","","","","","",""
 "A. Sensitivity grid","","","","","",""
-"core top-k","species top-n","instances","distinct regulators","retained of baseline","stress-coupled","hypergeometric p"
+"core top-k","species top-n","matches","distinct regulators","retained of baseline","stress-coupled","hypergeometric p"
 "8","5","10","5","5/12","3/5","0.396"
 "8","8","18","8","8/12","6/8","0.062"
 "8","10","20","8","8/12","6/8","0.062"

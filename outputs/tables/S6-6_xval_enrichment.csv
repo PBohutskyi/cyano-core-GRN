@@ -1,7 +1,7 @@
 "V1","V2","V3","V4","V5","V6","V7"
 "Enrichment of stress-coupled regulators in the cross-validated set","","","","","",""
 "Baseline: core top 12 per measure, species top 10 per measure","","","","","",""
-"43 instances (regulator x species x measure), 12 distinct regulators","","","","","",""
+"43 matches (regulator x species x measure), 12 distinct regulators","","","","","",""
 "","","","","","",""
 "Cross-validated regulators","","","","","",""
 "regulator","locus tag","species","n species","measure groups","stress category","stress-coupled"

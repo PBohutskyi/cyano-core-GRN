@@ -16,7 +16,7 @@ authors:
     given-names: Margaret
 license: MIT
 doi: 10.5281/zenodo.23002537
-version: "v1.1"
+version: "v1.2"
 repository-code: "https://github.com/PBohutskyi/cyano-core-GRN"
 preferred-citation:
   type: article

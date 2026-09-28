@@ -4,16 +4,16 @@ Code and data for:
 
 > Bohutskyi P, DiMura R, Johnson Z, Li R, Anderson D, Cheung M. Stress-related transcriptional regulators enriched in conserved core GRN for three cyanobacteria: network topology maps the highest-influence nodes as candidate engineering targets. *Microbiology Spectrum* (under review, manuscript Spectrum01958-26).
 
-Archived release: v1.1, https://doi.org/10.5281/zenodo.23002537
+Archived release: v1.2 on Zenodo (the DOI is given in the paper's Data Availability statement). Previous release: v1.1, https://doi.org/10.5281/zenodo.23002537
 
-The repository reproduces every table, figure and Supplementary Dataset S5 to S8 of the paper from the networks of record and the curated inputs, in about two minutes. It also holds the expression data and the script to rerun the seeded GENIE3 inference.
+The repository reproduces every table, figure and Supplementary Dataset S5 to S8 of the paper from the networks of record (the representative networks of the paper) and the curated inputs, in about two minutes. It also holds the expression data and the script to rerun the seeded GENIE3 inference.
 
 ## Quick start
 
 Requirements (versions used for the paper; see `logs/00_versions.log` after a run):
 
 - R 4.6.0 with igraph 2.3.3, readxl 1.5.0, openxlsx 4.2.8.1 (and GENIE3 1.34.0 from Bioconductor, only to rerun GENIE3)
-- Python 3.13 with networkx 3.4.2, pandas 3.0.5, scipy 1.18.1, matplotlib 3.11.1, openpyxl 3.1.5
+- Python 3.13 with networkx 3.4.2, pandas 3.0.5, scipy 1.18.1, matplotlib 3.11.1, openpyxl 3.1.5 and scikit-learn (Figure S1 only; the version is written to the log)
 
 ```
 bash run_all.sh
@@ -21,7 +21,7 @@ bash run_all.sh
 
 The pipeline was also run on Linux with R 4.3.3 and the same package versions: every output was identical except one value, the Figure 4A Wilcoxon P (0.395 instead of 0.397), because R 4.4 changed how `wilcox.test` treats ties.
 
-All outputs go to `outputs/tables`, `outputs/figures` and `datasets/`; each step writes a log to `logs/`. To use a specific Python, run `PYTHON=/path/to/python bash run_all.sh`.
+All outputs go to `outputs/tables`, `outputs/figures` and `datasets/`; each step writes a log to `logs/`. The last step checks that every Dataset opens cleanly. To use a specific Python, run `PYTHON=/path/to/python bash run_all.sh`.
 
 ## What is where
 
@@ -31,7 +31,7 @@ All outputs go to `outputs/tables`, `outputs/figures` and `datasets/`; each step
 | `curation/` | Curated inputs: regulator names and functional classification, species regulator lists and ortholog map, gene and edge annotation, Figure 6 names and categories. No script writes these files |
 | `reference/` | PCC 7942 protein-coding annotation (Table 1 background) and the protein-coding gene lists of the three genomes (Figure 1A) |
 | `datasets/` | Supplementary Datasets S1 to S8. S1 to S4 are fixed data (S3 and S4 are also script inputs); S5 to S8 are built by the scripts |
-| `expression/` | Log2 TPM expression compendia supplied to GENIE3 (genes in rows, samples in columns) |
+| `expression/` | Log2 TPM expression compendia supplied to GENIE3 (genes in rows, samples in columns): `expression_core.csv` is SynCOREexpress (1,312 core genes, 1,098 samples); `expression_PCC7942.csv`, `expression_PCC6803.csv` and `expression_PCC7002.csv` are Syn7942express, Syn6803express and Syn7002express |
 | `scripts/analysis/` | Analysis scripts, numbered in run order |
 | `scripts/datasets/` | Builders of Datasets S5 to S8 |
 | `scripts/inference/` | Seeded GENIE3 inference |
@@ -49,7 +49,7 @@ The core GRN was inferred from 1,312 genes and 42 regulators, giving 55,062 regu
 
 ## Rerunning GENIE3
 
-Step 00 of the pipeline regenerates the 40 seeded runs from the expression data and checks each against the shipped run; the analysis then continues with steps 01 to 16:
+Step 00 of the pipeline regenerates the 40 seeded runs from the expression data and checks each against the shipped run; the analysis then continues with steps 01 to 17:
 
 ```
 bash run_all.sh --genie3

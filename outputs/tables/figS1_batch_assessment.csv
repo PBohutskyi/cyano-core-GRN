@@ -1,0 +1,10 @@
+Metric,Value
+Fraction of nearest neighbours (k=15) from the same species,0.998
+Fraction of same-species nearest neighbours from a different BioProject,0.365
+Silhouette width by species (PC1-PC10),0.184
+"Mean PC distance: same condition, same BioProject",5.215
+"Mean PC distance: same condition, different BioProject",15.169
+"Ratio, cross-BioProject / within-BioProject (same condition)",2.909
+Mean PC distance: same-species pairs,30.175
+Cross-BioProject distance as a fraction of same-species distance,0.503
+Condition labels represented in two or more BioProjects within a species,7.0

@@ -6,7 +6,7 @@ SYNPCC7942_RS03075,TetR,,circadian; carbon metabolism,high,TetR/AcrR repressor o
 SYNPCC7942_RS03160,HrcA,multi-stress (heat),,high,Heat-inducible repressor of the major chaperone operons; central to the heat-shock response
 SYNPCC7942_RS03260,NusG,,housekeeping/transcription,high,"Transcription antitermination factor; stress-responsive expression (cold, salt, osmo, light, H2O2, iron deprivation)"
 SYNPCC7942_RS03325,SigA1,,housekeeping/transcription,high,Primary sigma factor
-SYNPCC7942_RS03440,SigA3,,housekeeping/transcription,med,Group sigma factor
+SYNPCC7942_RS03440,SigA3,,housekeeping/transcription,med,Group-2 sigma factor (RpoD3)
 SYNPCC7942_RS03530,ArsR,metal stress,,high,ArsR/SmtB metalloregulator; responds to metal excess and thiol redox change
 SYNPCC7942_RS03565,NrdR,multi-stress (DNA damage/replication),nucleotide metabolism,med,Repressor of ribonucleotide reductase; RNR is induced by DNA damage and oxidative stress
 SYNPCC7942_RS04225,Zur,metal stress (Zn),,high,Zinc uptake regulator; controls the response to zinc limitation and excess
@@ -20,12 +20,12 @@ SYNPCC7942_RS06700,CmpR,,carbon metabolism (CCM),high,CCM/bicarbonate transporte
 SYNPCC7942_RS06745,PyrR,,nucleotide metabolism,high,Pyrimidine operon regulator
 SYNPCC7942_RS07185,ManR,metal stress (Mn),,high,OmpR-family response regulator of Mn2+ homeostasis; responds to Mn2+ limitation
 SYNPCC7942_RS07435,RpaB,multi-stress (light/redox),photosynthesis coordination,med,"Response regulator of the NblS two-component system; coordinates high-light, redox and nutrient stress responses"
-SYNPCC7942_RS07720,SigF1,,housekeeping/transcription,med,Group sigma factor
+SYNPCC7942_RS07720,SigF1,,cell morphology and motility,med,Group-3 sigma factor; required for pilus formation and biofilm suppression in PCC 7942
 SYNPCC7942_RS07805,NtrC,nutrient stress (N),nitrogen metabolism,high,Sigma-54-dependent regulator activated under nitrogen limitation; integrates nitrogen and carbon status
-SYNPCC7942_RS08645,ChlR,multi-stress (low O2),,med,"Named from PCC 6803 (sll1512) and PCC 7002 (SYNPCC7002_A1993) ChlR; [4Fe-4S] low-O2 activator of tetrapyrrole synthesis; PCC 7942 homolog 46% identical, untested"
+SYNPCC7942_RS08645,ChlR,multi-stress (low O2),,med,[4Fe-4S] low-O2 activator of tetrapyrrole synthesis in PCC 6803 and PCC 7002; the PCC 7942 homolog (46% identity) is uncharacterized
 SYNPCC7942_RS08820,SufR,metal stress (Fe-S),,high,Represses the suf operon for Fe-S cluster assembly under iron limitation and oxidative stress
 SYNPCC7942_RS08885,SigA2,,circadian,med,Circadian-expressed sigma factor
-SYNPCC7942_RS09380,SigA5,,housekeeping/transcription,med,Group-2 sigma factor
+SYNPCC7942_RS09380,SigA5,,housekeeping/transcription,med,Group-2 sigma factor (RpoD5/SigC)
 SYNPCC7942_RS09435,Rre1,multi-stress,,med,"Response regulator of the Hik33-Rre1 system; integrates redox, temperature, salt and osmotic stress and controls major chaperones"
 SYNPCC7942_RS09500,Rre28,uncharacterized two-component stress,,high,Uncharacterized OmpR-family response regulator homologous to NblR; two-component stress signaling
 SYNPCC7942_RS10040,RbcR,,carbon metabolism,med,"LysR-family RuBisCO regulator; activates rbcLXS and CCM genes (sbtA, ccmKL)"
@@ -33,7 +33,7 @@ SYNPCC7942_RS10260,NusA,,housekeeping/transcription,high,"Transcription terminat
 SYNPCC7942_RS10350,SfsA,,carbon metabolism,high,Putative sugar-fermentation stimulation protein; carbon metabolism
 SYNPCC7942_RS10700,XylR,,carbon metabolism,high,ROK/XylR family; putative xylose repressor in sugar metabolism
 SYNPCC7942_RS11465,CyAbrB2,nutrient stress (C/N),carbon/nitrogen metabolism,high,AbrB-family regulator balancing carbon and nitrogen metabolism under nutrient limitation and light shift
-SYNPCC7942_RS11970,Crp,,carbon metabolism,low,Crp/Fnr generic (could be redox; uncertain)
+SYNPCC7942_RS11970,Crp,,carbon metabolism,low,Crp/Fnr-family regulator; function not characterized
 SYNPCC7942_RS12535,NrrA,nutrient stress (N),carbon metabolism (glycogen),med,Nitrogen-regulated OmpR-family response regulator; activates glycogen catabolism under N starvation
 SYNPCC7942_RS12560,NusB,,housekeeping/transcription,high,Transcription antitermination
 SYNPCC7942_RS13165,Rrf2,metal/redox stress (Fe-S),,med,"Rrf2 family (IscR/NsrR-like); senses Fe-S cluster status under iron, redox and nitrosative stress"

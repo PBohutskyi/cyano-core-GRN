@@ -20,8 +20,9 @@ Scripts in run order (`run_all.sh`). Paths are relative to the repository root. 
 | `12_figure4_core_stability.R` | core network of record and seeded runs; `tables/centralities_core.csv` | `figures/fig4_*`; `tables/fig4_*.csv`, `seed_centralities_core.csv`, `seed_outdegree_core.csv`, `fig4_numbers_for_SI.txt` | Figure 4; Dataset S8 |
 | `13_figureS2_species_stability.R` | species networks of record and seeded runs; centrality tables; curated S5-4 | `figures/figS2_*`; `tables/figS2_*.csv`, `seed_centralities_species.csv`, `seed_outdegree_species.csv`, `figS2_numbers_for_SI.txt` | Figure S2; Dataset S8 |
 | `14_network_recurrence.R` | networks of record and seeded runs | `tables/edge_recurrence.csv`, `network_recurrence_summary.csv` | Recurrence of each network in its seeded runs; Dataset S8-6 |
-| `15_crossvalidation.R` | centrality tables; curated S5-4; curation | `tables/S6-6_xval_enrichment.csv`, `S6-7_xval_sensitivity.csv`, `xval_instances.csv` | Cross-validation; Dataset S6-6 to S6-8 |
+| `15_crossvalidation.R` | centrality tables; curated S5-4; curation | `tables/S6-6_xval_enrichment.csv`, `S6-7_xval_sensitivity.csv`, `xval_matches.csv` | Cross-validation; Dataset S6-6 to S6-8 |
 | `16_figures5_6.py` | centrality tables; `tables/ortholog_groups.csv`; curation | `tables/figure5_symbols.csv`, `figure6_symbols.csv`, `figure6_regulators.csv`, `figure56_counts.txt` | Figures 5 and 6 (placements) |
+| `17_figureS1_pca_qc.py` | `expression/expression_core.csv`; Dataset S2 | `figures/figS1_pca_pairwise`; `tables/figS1_pca_scores.csv`, `figS1_pc_associations.csv`, `figS1_batch_assessment.csv` | Figure S1; PCA quality check in Methods 2.2 |
 
 ## Datasets
 
@@ -31,6 +32,7 @@ Scripts in run order (`run_all.sh`). Paths are relative to the repository root. 
 | `build_dataset_S6.R` | `datasets/Dataset_S6_Core_GRN_nodes_TFs_and_edges.xlsx` |
 | `build_dataset_S7.R` | `datasets/Dataset_S7_Centrality_and_stability.xlsx` |
 | `build_dataset_S8.R` | `datasets/Dataset_S8_Seeded_run_stability.xlsx` |
+| `check_datasets.py` | Checks that Datasets S1 to S8 open cleanly (removes links to missing workbook parts; fails on cell comments or outdated wording) |
 
 ## Step 00, seeded GENIE3 (`bash run_all.sh --genie3`)
 
@@ -42,11 +44,11 @@ Scripts in run order (`run_all.sh`). Paths are relative to the repository root. 
 
 | File | Contents |
 |---|---|
-| `networks/<network>/network_of_record.graphml` | Network of record: core GRN 889 nodes, 1,100 edges; PCC 7942 1,978 and 3,500; PCC 6803 2,461 and 3,500; PCC 7002 2,181 and 3,500 |
+| `networks/<network>/network_of_record.graphml` | Network of record (representative network): core GRN 889 nodes, 1,100 edges; PCC 7942 1,978 and 3,500; PCC 6803 2,461 and 3,500; PCC 7002 2,181 and 3,500 |
 | `networks/<network>/regulators_GENIE3_input.csv` | Regulators supplied to GENIE3: core 42, PCC 7942 71, PCC 6803 74, PCC 7002 78 |
 | `networks/<network>/seeded/top<N>_seed01..10.csv` | Top edges of the ten seeded GENIE3 runs (regulatoryGene, targetGene, weight) |
 | `networks/<network>/seeded/run_manifest.csv`, `run_timing.csv` | Settings, versions, input size and run time of the seeded runs |
-| `expression/expression_<network>.csv` | Log2 TPM expression compendia supplied to GENIE3 (genes in rows, samples in columns) |
+| `expression/expression_<network>.csv` | Log2 TPM expression compendia supplied to GENIE3 (genes in rows, samples in columns): `expression_core.csv` is SynCOREexpress; `expression_PCC7942.csv`, `expression_PCC6803.csv`, `expression_PCC7002.csv` are Syn7942express, Syn6803express, Syn7002express |
 | `curation/core_regulator_curation.csv` | Names and functional classification of the 38 core regulators |
 | `curation/S5_curated_regulators.xlsx` | Curated regulator lists per strain; conserved regulators and orthologs (S5-4) |
 | `curation/S6_source_annotation.xlsx` | Gene, regulator and edge annotation of the core GRN |

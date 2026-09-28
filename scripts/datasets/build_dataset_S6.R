@@ -8,7 +8,7 @@
 #          curation/core_regulator_curation.csv   names and classification
 #          curation/S6_source_annotation.xlsx     gene and edge annotation
 #          outputs/tables/centralities_core.csv, S6-4 to S6-7 tables,
-#          xval_instances.csv                     (scripts 05, 11, 15)
+#          xval_matches.csv                     (scripts 05, 11, 15)
 # Output : datasets/Dataset_S6_Core_GRN_nodes_TFs_and_edges.xlsx
 
 source("scripts/common.R")
@@ -28,14 +28,14 @@ SHEETS <- c(legend = "S6-0. Legend",
             s5     = "S6-5. IC enrichment tests",
             s6     = "S6-6. Xval enrichment",
             s7     = "S6-7. Xval sensitivity",
-            s8     = "S6-8. Xval instances")
+            s8     = "S6-8. Xval matches")
 
 need <- function(f) { if (!file.exists(f)) stop("missing ", f); f }
 SRC <- need(CUR_S6)
 IN  <- TAB
 for (f in c("centralities_core.csv", "S6-4_IC_robustness.csv",
             "S6-5_IC_enrichment.csv", "S6-6_xval_enrichment.csv",
-            "S6-7_xval_sensitivity.csv", "xval_instances.csv"))
+            "S6-7_xval_sensitivity.csv", "xval_matches.csv"))
   need(file.path(IN, f))
 
 rd <- function(sheet) as.data.frame(readxl::read_excel(SRC, sheet = sheet,
@@ -183,10 +183,10 @@ for (nmb in c("S6-4", "S6-5", "S6-6", "S6-7")) {
     stop(nmb, " does not match a pool of ", N, " regulators")
 }
 
-## cross-check S6-6 header against xval_instances.csv
-xv <- read.csv(file.path(IN, "xval_instances.csv"), stringsAsFactors = FALSE)
+## cross-check S6-6 header against xval_matches.csv
+xv <- read.csv(file.path(IN, "xval_matches.csv"), stringsAsFactors = FALSE)
 hdr6 <- s6[3, 1]
-stopifnot(grepl(sprintf("^%d instances", nrow(xv)), hdr6),
+stopifnot(grepl(sprintf("^%d matches", nrow(xv)), hdr6),
           grepl(sprintf("%d distinct", length(unique(xv$regulator))), hdr6))
 
 ## S6-8: the individual cross-validation matches behind S6-6. Each row is one
@@ -204,7 +204,7 @@ xi$Core_IC_rank   <- tfs$IC_rank[match(xi$locus_tag, tfs$locus_tag)]
 stopifnot(!any(is.na(xi$Stress_coupled)), !any(is.na(xi$Species)))
 MEAS_ORDER <- c("degree", "k_core", "betweenness", "stress", "eigenvector", "IC")
 xi <- xi[c_order(xi$Core_IC_rank, xi$Species, match(xi$Measure, MEAS_ORDER)), ]
-cat(sprintf("cross-validation: %d instances, %d distinct regulators, %d stress-coupled\n",
+cat(sprintf("cross-validation: %d matches, %d distinct regulators, %d stress-coupled\n",
             nrow(xi), length(unique(xi$locus_tag)),
             length(unique(xi$locus_tag[xi$Stress_coupled == "Y"]))))
 
@@ -222,11 +222,11 @@ legend <- rbind(
   c(SHEETS[["s5"]],  "Enrichment of stress-coupled regulators among the top-ranked regulators by IC, from the top 5 to the top 20, and sensitivity to the classification of individual regulators."),
   c(SHEETS[["s6"]],  sprintf("Regulators cross-validated between the core GRN and the species GRNs (Figure %d), with enrichment of stress-coupled regulators in that set.", FIG_XVAL)),
   c(SHEETS[["s7"]],  "Sensitivity of the cross-validation to the core and species rank cutoffs."),
-  c(SHEETS[["s8"]],  sprintf("The individual matches behind the cross-validation: %d instances of a core regulator recovered in a species network by one measure, covering %d distinct regulators. S6-6 gives the counts; this sheet gives the matches.", nrow(xi), length(unique(xi$locus_tag)))),
+  c(SHEETS[["s8"]],  sprintf("The individual matches behind the cross-validation: %d matches of a core regulator recovered in a species network by one measure, covering %d distinct regulators. S6-6 gives the counts; this sheet gives the matches.", nrow(xi), length(unique(xi$locus_tag)))),
   c("", ""),
   c("Column", "Definition"),
   c("locus_tag, old_locus_tag", "Current RefSeq and previous locus tags in PCC 7942."),
-  c("Louvain_cluster", sprintf("Community identifier from Louvain clustering (Methods); cluster 0 is the group shown as n/a in Figure %dB.", FIG_CLUSTERS)),
+  c("Louvain_cluster", sprintf("Cluster identifier from Louvain clustering (Methods); cluster 0 is the group shown as n/a in Figure %dB.", FIG_CLUSTERS)),
   c("Regulator", "Y if the node is one of the 38 curated regulators, N otherwise (S6-1)."),
   c("TF_name", "Standardized regulator name used in figures and tables."),
   c("Stress_category / Non_stress_category", "Stress role and primary non-stress role of the regulator. A regulator is stress-coupled (Stress_coupled = Y) when a stress role is assigned."),
@@ -240,7 +240,7 @@ legend <- rbind(
   c("IC", "Integrated Centrality, Eq. 2: sum of degree_norm, k_core_norm, betweenness_norm, eigenvector_norm and stress_norm."),
   c("*_seedmean, *_seedsd", "Mean and standard deviation of the value across ten GENIE3 runs with fixed seeds."),
   c("IC_rank", "Rank by IC among the ranked regulators; 1 = highest."),
-  c("IC_z_vs_seeds", "(IC - IC_seedmean) / IC_seedsd for the network of record."),
+  c("IC_z_vs_seeds", "(IC - IC_seedmean) / IC_seedsd for the representative network."),
   c("Regulator_Louvain_cluster", "Louvain cluster of the regulator (S6-3)."),
   c("Species, Measure, Measure_group", "Species network in which the regulator was recovered, the measure that recovered it, and the scope of that measure (S6-8)."),
   c("Core_IC_rank", "Rank of the regulator by IC in the core GRN (S6-8).")

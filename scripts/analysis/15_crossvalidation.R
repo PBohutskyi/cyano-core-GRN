@@ -13,7 +13,7 @@
 #          curation/core_regulator_curation.csv
 # Outputs: outputs/tables/S6-6_xval_enrichment.csv
 #          outputs/tables/S6-7_xval_sensitivity.csv
-#          outputs/tables/xval_instances.csv    (every regulator x species x measure match)
+#          outputs/tables/xval_matches.csv    (every regulator x species x measure match)
 
 source("scripts/common.R")
 CORE_K <- 12; SPECIES_N <- 10          # baseline cutoffs
@@ -44,7 +44,7 @@ topby <- function(d, m, n) {
   d$locus_tag[order(-x, -ic)][seq_len(min(n, nrow(d)))]
 }
 
-## every (regulator, species, group) instance at a given pair of cutoffs
+## every (regulator, species, group) match at a given pair of cutoffs
 instances <- function(k, n) {
   out <- list()
   for (m in names(XVAL_MEASURES)) {
@@ -63,11 +63,11 @@ instances <- function(k, n) {
 }
 
 base <- instances(CORE_K, SPECIES_N)
-write.csv(base, o("xval_instances.csv"), row.names = FALSE)
+write.csv(base, o("xval_matches.csv"), row.names = FALSE)
 distinct <- unique(base$locus_tag)
 k_stress <- sum(stress[distinct], na.rm = TRUE)
 cat("baseline: core top ", CORE_K, " x species top ", SPECIES_N, " -> ",
-    nrow(base), " instances, ", length(distinct), " distinct regulators, ",
+    nrow(base), " matches, ", length(distinct), " distinct regulators, ",
     k_stress, " stress-coupled\n", sep = "")
 
 ## ---------------------------------------------------------------- S6-6
@@ -75,7 +75,7 @@ rows <- list(); add <- function(...) rows[[length(rows)+1]] <<- c(list(...), rep
 add("Enrichment of stress-coupled regulators in the cross-validated set")
 add(sprintf("Baseline: core top %d per measure, species top %d per measure",
             CORE_K, SPECIES_N))
-add(sprintf("%d instances (regulator x species x measure), %d distinct regulators",
+add(sprintf("%d matches (regulator x species x measure), %d distinct regulators",
             nrow(base), length(distinct)))
 add("")
 add("Cross-validated regulators")
@@ -116,7 +116,7 @@ add(sprintf("Baseline: core top %d, species top %d", CORE_K, SPECIES_N))
 add(sprintf("Pool: %d regulators, %d stress-coupled", N, K))
 add("")
 add("A. Sensitivity grid")
-add("core top-k", "species top-n", "instances", "distinct regulators",
+add("core top-k", "species top-n", "matches", "distinct regulators",
     "retained of baseline", "stress-coupled", "hypergeometric p")
 for (k in GRID_K) for (n in GRID_N) {
   x  <- instances(k, n); dd <- unique(x$locus_tag)

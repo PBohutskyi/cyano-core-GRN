@@ -1,6 +1,6 @@
 # build_dataset_S8.R
 # Dataset S8: reproducibility of the four networks across ten seeded GENIE3
-# runs. Every seeded network is pruned exactly as its network of record, and
+# runs. Every seeded network is pruned exactly as its representative network, and
 # every value is read from the tables behind Figure 4 and Supplementary
 # Figure S2, so the dataset and the figures carry identical numbers.
 #
@@ -94,10 +94,16 @@ cat(sprintf("out-degree: %d regulators across %d networks\n", nrow(od), length(N
 ## S8-3. Per-seed centralities, core GRN
 ## ---------------------------------------------------------------------------
 ## Computed in 12_figure4_core_stability.R with the functions used for the
-## networks of record, so S8-3 and S7-1 are directly comparable.
+## representative networks, so S8-3 and S7-1 are directly comparable.
 cent <- read.csv(o("seed_centralities_core.csv"), stringsAsFactors = FALSE,
                  check.names = FALSE)
 names(cent) <- sub("^kcore", "k_core", names(cent))
+## same stress labels as S8-4
+if ("stress_related" %in% names(cent)) {
+  cent$stress_related <- ifelse(cent$stress_related == "yes", "Y", "N")
+  names(cent)[names(cent) == "stress_related"] <- "Stress_coupled"
+  names(cent)[names(cent) == "stress_category"] <- "Stress_category"
+}
 names(cent)[names(cent) == "seed"] <- "Seed"
 front <- c("Seed", "locus_tag", "TF_name", "IC", "IC_rank")
 front <- front[front %in% names(cent)]
@@ -151,12 +157,12 @@ cat(sprintf("stress enrichment: representative %d of %d (p = %s), seeded median 
             sum(E$p < 0.05), length(SEEDS)))
 
 ## ---------------------------------------------------------------------------
-## S8-6. Recurrence of each network of record in its seeded runs
+## S8-6. Recurrence of each representative network in its seeded runs
 ## ---------------------------------------------------------------------------
 R6 <- read.csv(o("network_recurrence_summary.csv"), stringsAsFactors = FALSE)
 nrec <- data.frame(
   Network = R6$network,
-  Edges_in_network_of_record = R6$representative_edges,
+  Edges_in_representative_network = R6$representative_edges,
   Edges_recurring_in_at_least_1_run_percent = R6$edges_in_at_least_1_run_percent,
   Edges_recurring_in_at_least_5_runs_percent = R6$edges_in_at_least_5_runs_percent,
   Edges_recurring_in_all_10_runs_percent = R6$edges_in_all_10_runs_percent,
@@ -171,33 +177,34 @@ stopifnot(nrow(nrec) == length(NETWORKS))
 legend <- rbind(
   c("Dataset S8. Reproducibility of the gene regulatory networks across ten seeded GENIE3 runs", ""),
   c("", ""),
-  c(sprintf("Each network was rebuilt %d times with fixed random seeds, using the same input expression compendium and the same pruning as the network of record. Dataset S6 describes the core GRN and Dataset S7 the four networks of record.", length(SEEDS)), ""),
+  c(sprintf("Each network was rebuilt %d times with fixed random seeds, using the same input expression compendium and the same pruning as the representative network. Dataset S6 describes the core GRN and Dataset S7 the four representative networks.", length(SEEDS)), ""),
   c("", ""),
   c("Sheet", "Contents"),
-  c(SHEETS[["ov"]],   sprintf("Percentage of edges shared between runs, for every pair of the %d seeded runs of each network and between the network of record and each seeded run. Shared edges are expressed as a percentage of the mean size of the two pruned edge sets (Figure 4A, Figure S2A).", length(SEEDS))),
+  c(SHEETS[["ov"]],   sprintf("Percentage of edges shared between runs, for every pair of the %d seeded runs of each network and between the representative network and each seeded run. Shared edges are expressed as a percentage of the mean size of the two pruned edge sets (Figure 4A, Figure S2A).", length(SEEDS))),
   c(SHEETS[["od"]],   sprintf("Out-degree of every regulator in each of the %d pruned seeded runs of each network, with the mean and standard deviation across the runs in which it has targets (Figure 4B, Figure S2B).", length(SEEDS))),
   c(SHEETS[["cent"]], sprintf("Centrality measures, normalized values, Integrated Centrality and IC rank for the core GRN regulators in each of the %d seeded runs. Computed with the same functions as Dataset S7, so the two are directly comparable.", length(SEEDS))),
   c(SHEETS[["rec"]],  sprintf("How many of the %d seeded runs place each core regulator in the top %d by IC, with the range of its rank across runs.", length(SEEDS), TOPN)),
-  c(SHEETS[["enr"]],  sprintf("Number of stress-coupled regulators among the top %d by IC in each seeded run and in the network of record, with the hypergeometric test against a pool of %d regulators of which %d are stress-coupled.", TOPN, N, K)),
-  c(SHEETS[["nrec"]], sprintf("How much of each network of record recurs in its %d seeded runs: the percentage of its edges found in at least 1, at least 5 and all %d runs, and the median overlap of its genes and of its regulators with each seeded run.", length(SEEDS), length(SEEDS))),
+  c(SHEETS[["enr"]],  sprintf("Number of stress-coupled regulators among the top %d by IC in each seeded run and in the representative network, with the hypergeometric test against a pool of %d regulators of which %d are stress-coupled.", TOPN, N, K)),
+  c(SHEETS[["nrec"]], sprintf("How much of each representative network recurs in its %d seeded runs: the percentage of its edges found in at least 1, at least 5 and all %d runs, and the median overlap of its genes and of its regulators with each seeded run.", length(SEEDS), length(SEEDS))),
   c("", ""),
   c("Column", "Definition"),
   c("Network", "Core GRN or the species network the row refers to."),
-  c("Run_A, Run_B, Run", "Seeded run, identified by its seed, or the unseeded network of record."),
-  c("Comparison", "Whether the row compares two seeded runs or the network of record against a seeded run (S8-1)."),
+  c("Run_A, Run_B, Run", "Seeded run, identified by its seed, or the unseeded representative network."),
+  c("Comparison", "Whether the row compares two seeded runs or the representative network against a seeded run (S8-1)."),
   c("Shared_edges_percent", "Edges present in both runs, as a percentage of the mean size of the two edge sets."),
   c("seed1 to seed10", "Value in the run with that seed."),
   c("Seed_mean, Seed_sd, Seeds_present", "Mean and standard deviation across seeded runs, and the number of runs in which the regulator was present."),
   c("degree, k_core, betweenness, stress, eigenvector", "Centrality measures, computed as described in Dataset S6."),
   c("*_norm, IC, IC_rank", "Measure divided by its maximum across the ranked regulators of that run; their sum (Eq. 2); and the rank by IC within that run."),
-  c("Representative_IC_rank", "Rank of the regulator by IC in the network of record."),
+  c("Representative_IC_rank", "Rank of the regulator by IC in the representative network."),
   c("Seeds_in_top15", sprintf("Number of seeded runs placing the regulator in the top %d by IC.", TOPN)),
   c("Seed_rank_min, Seed_rank_median, Seed_rank_max", "Range and median of the regulator's IC rank across the seeded runs in which it was ranked."),
   c("Stress_coupled", "Y if a stress role is assigned to the regulator in Dataset S6, N otherwise."),
+  c("Stress_category", "Stress role assigned to the regulator (Dataset S6-2)."),
   c("Expected_at_random", sprintf("Stress-coupled regulators expected among %d drawn at random from the pool, that is %d x %d / %d.", TOPN, TOPN, K, N)),
   c("Hypergeometric_p", "One-sided probability of observing at least this many stress-coupled regulators by chance."),
-  c("Edges_recurring_in_...", "Edges of the network of record (regulator-target pairs) that are also present in the given number of pruned seeded runs, as a percentage of its edges."),
-  c("Gene_overlap_median_percent, Regulator_overlap_median_percent", "Genes, or regulators (nodes with targets), present in both the network of record and a seeded run, as a percentage of the mean count of the two; median across the seeded runs.")
+  c("Edges_recurring_in_...", "Edges of the representative network (regulator-target pairs) that are also present in the given number of pruned seeded runs, as a percentage of its edges."),
+  c("Gene_overlap_median_percent, Regulator_overlap_median_percent", "Genes, or regulators (nodes with targets), present in both the representative network and a seeded run, as a percentage of the mean count of the two; median across the seeded runs.")
 )
 legend <- as.data.frame(legend, stringsAsFactors = FALSE); names(legend) <- NULL
 
