@@ -7,7 +7,7 @@
 #   B  regulator out-degree, network of record vs the seeded mean
 #   C  rank agreement per centrality measure, network of record vs each run
 #   D  how many seeded runs place each regulator in the top 15 by IC
-#   E  stress-coupled regulators in each seeded top 15, against the null
+#   E  stress-related regulators in each seeded top 15, against the null
 #   F  recovery of the network-of-record top N in the seeded runs, N = 5 to 20
 #
 # Inputs : networks/core/network_of_record.graphml
@@ -27,7 +27,7 @@ NRANGE <- 5:20              # cutoffs scanned in panel F
 ## ------------------------------------------------ style (shared by all figure scripts)
 FONT_PDF <- "Times"; FONT_PNG <- "serif"; BASE_CEX <- 1.0; LWD <- 1.1
 ## one accent for the representative network, one for the seeded runs, and the
-## stress-coupled pair; all drawn from the Figure 2 colourblind-safe palette
+## stress-related pair; all drawn from the Figure 2 colourblind-safe palette
 REP_COL    <- "#000000"
 SEED_COL   <- "#0072B2"
 STRESS_COL <- c(yes = "#CC79A7", no = "#BFBFBF")
@@ -112,7 +112,7 @@ stopifnot(nrow(rep_core) == 38)
 is_stress <- setNames(rep_core$stress_related == "yes", rep_core$locus_tag)
 tfname    <- setNames(rep_core$TF_name, rep_core$locus_tag)
 N <- nrow(rep_core); K <- sum(is_stress)
-say("pool ", N, " regulators, ", K, " stress-coupled")
+say("pool ", N, " regulators, ", K, " stress-related")
 
 ## =========================================================================
 ## 2. Panel data
@@ -180,7 +180,7 @@ D <- data.frame(locus_tag = rep_core$locus_tag,
 D <- D[order(-D$seeds_in_top, D$rep_rank), ]
 write.csv(D, o("fig4_D_top15_recurrence.csv"), row.names = FALSE)
 
-## ---- E: stress-coupled regulators in each seeded top TOPN, against the null
+## ---- E: stress-related regulators in each seeded top TOPN, against the null
 E <- data.frame(seed = SEEDS,
                 k_stress = sapply(top_by_seed, function(x) sum(is_stress[x], na.rm = TRUE)),
                 stringsAsFactors = FALSE)
@@ -305,7 +305,7 @@ panelE <- function(annot = TRUE) {
   axis(1, at = bp, labels = FALSE, lwd = LWD, tcl = TCL)
   catlab(bp, x, cex = 0.88)
   ylab2("Number of seeded runs")
-  xlab2(paste0("Stress-coupled regulators in the top ", TOPN))
+  xlab2(paste0("Stress-related regulators in the top ", TOPN))
   xat <- function(v) approx(x, bp, v, rule = 2)$y
   abline(v = xat(EXP),   lty = 2, lwd = 1.6, col = "#7F7F7F")
   abline(v = xat(k_rep), lty = 1, lwd = 1.6, col = REP_COL)
@@ -339,7 +339,7 @@ panelF <- function() {
 key_B <- function() {
   par(mar = c(0.2, 0.2, 0.2, 0.2)); plot.new()
   legend("center", bty = "n", cex = 0.9, y.intersp = 1.3, pt.cex = PCH_CEX + 0.1,
-         legend = c("Stress-coupled regulator", "Not stress-coupled", "1:1 line"),
+         legend = c("Stress-related regulator", "Not stress-related", "1:1 line"),
          pch = c(21, 21, NA), lty = c(NA, NA, 2), lwd = c(NA, NA, LWD),
          col = c(STRESS_COL["yes"], STRESS_COL["no"], "#7F7F7F"),
          pt.bg = c(adjustcolor(STRESS_COL["yes"], alpha.f = 0.45),
@@ -360,7 +360,7 @@ key_F <- function() {
 key_panel <- function() {
   par(mar = c(0.2, 0.2, 0.2, 0.2)); plot.new()
   legend("center",
-         legend = c("Stress-coupled regulator", "Not stress-coupled",
+         legend = c("Stress-related regulator", "Not stress-related",
                     "Representative network", "Seeded runs",
                     "Expected under a random draw", "Median and interquartile range"),
          fill   = c(STRESS_COL["yes"], STRESS_COL["no"], NA, NA, NA, NA),
@@ -421,15 +421,15 @@ w("D. Top-", TOPN, " recurrence: ", sum(D$seeds_in_top == length(SEEDS)),
   " regulators appear in all ", length(SEEDS), " seeded runs, ",
   sum(D$seeds_in_top >= 8), " in at least 8, ", sum(D$seeds_in_top > 0), " in at least one")
 w("   of those appearing in at least 8, ",
-  sum(D$seeds_in_top >= 8 & D$stress == "yes"), " are stress-coupled")
+  sum(D$seeds_in_top >= 8 & D$stress == "yes"), " are stress-related")
 w("")
-w("E. Stress-coupled regulators in the top ", TOPN, ":")
+w("E. Stress-related regulators in the top ", TOPN, ":")
 w("   representative ", k_rep, " of ", TOPN, ", p = ", signif(p_rep, 3))
 w("   seeded runs median ", median(E$k_stress), ", range ", min(E$k_stress),
   " to ", max(E$k_stress), "; ", sum(E$p < 0.05), " of ", length(SEEDS),
   " significant at 0.05")
 w("   expected under a random draw ", sprintf("%.1f", EXP),
-  " (pool ", N, ", ", K, " stress-coupled)")
+  " (pool ", N, ", ", K, " stress-related)")
 w("")
 w("F. Recovery of the representative top N in the seeded runs:")
 for (n in c(10, TOPN, 20))

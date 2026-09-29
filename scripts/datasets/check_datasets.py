@@ -30,7 +30,8 @@ import openpyxl
 
 DS = "datasets"
 # wording replaced in the paper; a Dataset that still uses it is out of date
-RETIRED_TERMS = ["network of record", "networks of record", "instances"]
+RETIRED_TERMS = ["network of record", "networks of record", "instances",
+                 "stress-coupled", "stress_coupled"]
 
 REL_RE = re.compile(r'<Relationship\b[^>]*?/>')
 ATTR = lambda name, s: (re.search(r'\b%s="([^"]*)"' % name, s) or [None, None])[1]

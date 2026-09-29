@@ -1,4 +1,4 @@
-Species,Group,Species_locus,Core_locus,Regulator,product_name,Stress_coupled,measures,score,ic_tiebreak,font_size,symbol_size,needs_name,category,shape,label
+Species,Group,Species_locus,Core_locus,Regulator,product_name,Stress_related,measures,score,ic_tiebreak,font_size,symbol_size,needs_name,category,shape,label
 Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS12395,SYNPCC7942_RS04225,Zur,transcriptional repressor,Y,degree+kcore,1.0,1.0,18.5,2.0,,metal stress,oval,Zur
 Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS08965,,Sycrp1,Crp/Fnr family transcriptional regulator,,degree+kcore,1.0,0.6087,18.0,1.95,,carbon metabolism,oval,Sycrp1
 Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS01420,SYNPCC7942_RS06230,KaiC,circadian clock protein KaiC,N,kcore,1.0,0.5813,18.0,1.93,,circadian clock,diamond,KaiC

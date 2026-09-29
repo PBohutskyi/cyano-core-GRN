@@ -1,4 +1,4 @@
-"rank","locus_tag","TF_name","stress_coupled","stress_category","IC","IC_seedmean","IC_seedsd","degree","kcore","betweenness","eigenvector","stress"
+"rank","locus_tag","TF_name","stress_related","stress_category","IC","IC_seedmean","IC_seedsd","degree","kcore","betweenness","eigenvector","stress"
 1,"SYNPCC7942_RS03565","NrdR","yes","multi-stress (DNA damage/replication)",4.59,4.07,0.509,101,3,2782,0.8009,2951
 2,"SYNPCC7942_RS05640","DnaA","no","",3.395,3.337,0.072,128,3,553,1,580
 3,"SYNPCC7942_RS09435","Rre1","yes","multi-stress",3.212,2.233,0.697,58,3,2235,0.1569,2356

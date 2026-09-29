@@ -90,7 +90,7 @@ tfs <- merge(tfs, cur[, c("locus_tag", "TF_name", "Stress_category",
              by = "locus_tag", sort = FALSE)
 sc <- trimws(ifelse(is.na(tfs$Stress_category), "", tfs$Stress_category))
 tfs$Stress_category <- ifelse(sc == "", NA, sc)
-tfs$Stress_coupled  <- ifelse(sc == "", "N", "Y")
+tfs$Stress_related  <- ifelse(sc == "", "N", "Y")
 
 stopifnot(all(tfs$Assignment_confidence %in% c("low", "med", "high")))
 
@@ -99,7 +99,7 @@ cc <- read.csv(file.path(IN, "centralities_core.csv"), stringsAsFactors = FALSE,
 stopifnot(nrow(cc) == nrow(tfs), setequal(cc$locus_tag, tfs$locus_tag))
 ## classification in the CSV (via annotate_regulators) must match the curation
 m <- match(cc$locus_tag, tfs$locus_tag)
-stopifnot(all(cc$stress_related == ifelse(tfs$Stress_coupled[m] == "Y", "yes", "no")))
+stopifnot(all(cc$stress_related == ifelse(tfs$Stress_related[m] == "Y", "yes", "no")))
 ## IC must equal the sum of the five normalized measures, Eq. 2
 stopifnot(max(abs(rowSums(cc[, paste0(MEASURES, "_norm")]) - cc$IC)) < 1e-9)
 stopifnot(all(sort(cc$IC_rank) == seq_len(nrow(cc))))
@@ -116,20 +116,20 @@ stopifnot(!any(is.na(tfs$degree)), !any(is.na(tfs$IC)),
           all(sort(tfs$IC_rank) == seq_len(nrow(tfs))))
 front <- c(ANNOT, "Original description", "class", "type", "P2TF description",
            "TF_name", "Louvain_cluster", "Stress_category", "Non_stress_category",
-           "Stress_coupled", "Assignment_confidence", "Assignment_rationale",
+           "Stress_related", "Assignment_confidence", "Assignment_rationale",
            "indegree", "outdegree")
 tfs <- tfs[, c(front, setdiff(names(tfs), front))]
 tfs <- tfs[order(tfs$IC_rank), ]
 
 ## headline numbers, recomputed here and printed for the log
 pool <- tfs
-K <- sum(pool$Stress_coupled == "Y"); N <- nrow(pool)
+K <- sum(pool$Stress_related == "Y"); N <- nrow(pool)
 top15 <- pool[order(pool$IC_rank), ][1:15, ]
-k15 <- sum(top15$Stress_coupled == "Y")
+k15 <- sum(top15$Stress_related == "Y")
 p15 <- phyper(k15 - 1, K, N - K, 15, lower.tail = FALSE)
-cat(sprintf("regulators: %d ranked, %d with outgoing edges, %d stress-coupled (%.0f%%)\n",
+cat(sprintf("regulators: %d ranked, %d with outgoing edges, %d stress-related (%.0f%%)\n",
             N, sum(tfs$outdegree > 0), K, 100 * K / N))
-cat(sprintf("top 15 by IC: %d stress-coupled, hypergeometric p = %.4f\n", k15, p15))
+cat(sprintf("top 15 by IC: %d stress-related, hypergeometric p = %.4f\n", k15, p15))
 
 ## ---------------------------------------------------------------------------
 ## 4. S6-3 edges: annotation order and target annotation, checked against the graph
@@ -199,14 +199,14 @@ xi <- xv[, c("locus_tag", "regulator", "species", "measure", "group")]
 names(xi) <- c("locus_tag", "TF_name", "Species", "Measure", "Measure_group")
 xi$Species  <- unname(SPECIES_LAB[as.character(xi$Species)])
 xi$Measure  <- ifelse(xi$Measure == "IC", "IC", sub("^kcore$", "k_core", xi$Measure))
-xi$Stress_coupled <- tfs$Stress_coupled[match(xi$locus_tag, tfs$locus_tag)]
+xi$Stress_related <- tfs$Stress_related[match(xi$locus_tag, tfs$locus_tag)]
 xi$Core_IC_rank   <- tfs$IC_rank[match(xi$locus_tag, tfs$locus_tag)]
-stopifnot(!any(is.na(xi$Stress_coupled)), !any(is.na(xi$Species)))
+stopifnot(!any(is.na(xi$Stress_related)), !any(is.na(xi$Species)))
 MEAS_ORDER <- c("degree", "k_core", "betweenness", "stress", "eigenvector", "IC")
 xi <- xi[c_order(xi$Core_IC_rank, xi$Species, match(xi$Measure, MEAS_ORDER)), ]
-cat(sprintf("cross-validation: %d matches, %d distinct regulators, %d stress-coupled\n",
+cat(sprintf("cross-validation: %d matches, %d distinct regulators, %d stress-related\n",
             nrow(xi), length(unique(xi$locus_tag)),
-            length(unique(xi$locus_tag[xi$Stress_coupled == "Y"]))))
+            length(unique(xi$locus_tag[xi$Stress_related == "Y"]))))
 
 ## ---------------------------------------------------------------------------
 ## 6. Legend sheet
@@ -219,8 +219,8 @@ legend <- rbind(
   c(SHEETS[["tfs"]], sprintf("The %d transcriptional regulators in the pruned core GRN with curated name, functional category, stress classification, centrality measures, Integrated Centrality (IC, Eq. 2) and IC rank. All %d are ranked; %d of them carry outgoing edges after pruning, and the remaining %d retained only an incoming edge and therefore rank last.", nrow(tfs), N, sum(tfs$outdegree > 0), N - sum(tfs$outdegree > 0))),
   c(SHEETS[["edges"]], sprintf("The %d regulator-to-gene edges of the pruned core GRN with target gene name and eggNOG description.", nrow(edges))),
   c(SHEETS[["s4"]],  "Robustness of the IC ranking: leave-one-measure-out, correlation of each measure with IC, dominance after max-normalization, and alternative normalizations."),
-  c(SHEETS[["s5"]],  "Enrichment of stress-coupled regulators among the top-ranked regulators by IC, from the top 5 to the top 20, and sensitivity to the classification of individual regulators."),
-  c(SHEETS[["s6"]],  sprintf("Regulators cross-validated between the core GRN and the species GRNs (Figure %d), with enrichment of stress-coupled regulators in that set.", FIG_XVAL)),
+  c(SHEETS[["s5"]],  "Enrichment of stress-related regulators among the top-ranked regulators by IC, from the top 5 to the top 20, and sensitivity to the classification of individual regulators."),
+  c(SHEETS[["s6"]],  sprintf("Regulators cross-validated between the core GRN and the species GRNs (Figure %d), with enrichment of stress-related regulators in that set.", FIG_XVAL)),
   c(SHEETS[["s7"]],  "Sensitivity of the cross-validation to the core and species rank cutoffs."),
   c(SHEETS[["s8"]],  sprintf("The individual matches behind the cross-validation: %d matches of a core regulator recovered in a species network by one measure, covering %d distinct regulators. S6-6 gives the counts; this sheet gives the matches.", nrow(xi), length(unique(xi$locus_tag)))),
   c("", ""),
@@ -229,7 +229,7 @@ legend <- rbind(
   c("Louvain_cluster", sprintf("Cluster identifier from Louvain clustering (Methods); cluster 0 is the group shown as n/a in Figure %dB.", FIG_CLUSTERS)),
   c("Regulator", "Y if the node is one of the 38 curated regulators, N otherwise (S6-1)."),
   c("TF_name", "Standardized regulator name used in figures and tables."),
-  c("Stress_category / Non_stress_category", "Stress role and primary non-stress role of the regulator. A regulator is stress-coupled (Stress_coupled = Y) when a stress role is assigned."),
+  c("Stress_category / Non_stress_category", "Stress role and primary non-stress role of the regulator. A regulator is stress-related (Stress_related = Y) when a stress role is assigned."),
   c("Assignment_confidence, Assignment_rationale", "Confidence (low, med, high) and one-line basis for the functional assignment."),
   c("degree, indegree, outdegree", "Number of edges touching the node; incoming; outgoing."),
   c("k_core", "Largest k such that the node belongs to the k-core of the undirected network."),

@@ -16,12 +16,12 @@ C. Rank correlation with the representative network, median over 10 seeded runs:
    IC: 0.918 (min 0.885)
 
 D. Top-15 recurrence: 8 regulators appear in all 10 seeded runs, 13 in at least 8, 21 in at least one
-   of those appearing in at least 8, 9 are stress-coupled
+   of those appearing in at least 8, 9 are stress-related
 
-E. Stress-coupled regulators in the top 15:
+E. Stress-related regulators in the top 15:
    representative 11 of 15, p = 0.00535
    seeded runs median 10, range 10 to 11; 10 of 10 significant at 0.05
-   expected under a random draw 6.7 (pool 38, 17 stress-coupled)
+   expected under a random draw 6.7 (pool 38, 17 stress-related)
 
 F. Recovery of the representative top N in the seeded runs:
    N = 10: mean 73% (range 60 to 80)

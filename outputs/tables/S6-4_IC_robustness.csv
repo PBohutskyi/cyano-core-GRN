@@ -1,7 +1,7 @@
 "V1","V2","V3","V4","V5","V6","V7","V8"
 "Robustness of the integrated centrality score","","","","","","",""
 "IC = sum over 5 measures of (measure / max measure): degree, kcore, betweenness, eigenvector, stress","","","","","","",""
-"Background: 17 of 38 regulators are stress-coupled (45%)","","","","","","",""
+"Background: 17 of 38 regulators are stress-related (45%)","","","","","","",""
 "","","","","","","",""
 "1) Leave-one-measure-out","","","","","","",""
 "measure dropped","Spearman vs full IC","top-15 retained","stress in top 15","hypergeometric p","","",""

@@ -5,7 +5,7 @@
 # and its ortholog reaches the species top n on the same measure. Measures:
 # degree, k-core, betweenness, stress, eigenvector and IC; group labels are for
 # reporting only. Ties at a cutoff (frequent for k-core) are broken by IC.
-#   S6-6  cross-validated regulators and enrichment of stress-coupled ones
+#   S6-6  cross-validated regulators and enrichment of stress-related ones
 #   S6-7  sensitivity grid over core and species cutoffs
 #
 # Inputs : outputs/tables/centralities_{core,s7942,s6803,s7002}.csv  (05_centralities.R)
@@ -68,11 +68,11 @@ distinct <- unique(base$locus_tag)
 k_stress <- sum(stress[distinct], na.rm = TRUE)
 cat("baseline: core top ", CORE_K, " x species top ", SPECIES_N, " -> ",
     nrow(base), " matches, ", length(distinct), " distinct regulators, ",
-    k_stress, " stress-coupled\n", sep = "")
+    k_stress, " stress-related\n", sep = "")
 
 ## ---------------------------------------------------------------- S6-6
 rows <- list(); add <- function(...) rows[[length(rows)+1]] <<- c(list(...), rep(list(""),7))[1:7]
-add("Enrichment of stress-coupled regulators in the cross-validated set")
+add("Enrichment of stress-related regulators in the cross-validated set")
 add(sprintf("Baseline: core top %d per measure, species top %d per measure",
             CORE_K, SPECIES_N))
 add(sprintf("%d matches (regulator x species x measure), %d distinct regulators",
@@ -80,7 +80,7 @@ add(sprintf("%d matches (regulator x species x measure), %d distinct regulators"
 add("")
 add("Cross-validated regulators")
 add("regulator", "locus tag", "species", "n species", "measure groups",
-    "stress category", "stress-coupled")
+    "stress category", "stress-related")
 for (g in distinct[order(-sapply(distinct, function(x)
       length(unique(base$species[base$locus_tag == x]))), unname(tfname[distinct]))]) {
   b <- base[base$locus_tag == g, ]
@@ -89,7 +89,7 @@ for (g in distinct[order(-sapply(distinct, function(x)
       unname(scat[g]), ifelse(isTRUE(stress[[g]]), "Y", "N"))
 }
 add("")
-add(sprintf("Hypergeometric test: draw n=%d from a pool of %d with %d stress-coupled",
+add(sprintf("Hypergeometric test: draw n=%d from a pool of %d with %d stress-related",
             length(distinct), N, K))
 add("K stress in pool", "k stress in cross-validated set", "expected", "fold", "p", "significant")
 p <- phyper(k_stress - 1, K, N - K, length(distinct), lower.tail = FALSE)
@@ -113,11 +113,11 @@ add("Threshold sensitivity of the cross-validation")
 add("A regulator is cross-validated when it ranks in the core top-k on any one")
 add("measure and its ortholog ranks in the species top-n on that same measure.")
 add(sprintf("Baseline: core top %d, species top %d", CORE_K, SPECIES_N))
-add(sprintf("Pool: %d regulators, %d stress-coupled", N, K))
+add(sprintf("Pool: %d regulators, %d stress-related", N, K))
 add("")
 add("A. Sensitivity grid")
 add("core top-k", "species top-n", "matches", "distinct regulators",
-    "retained of baseline", "stress-coupled", "hypergeometric p")
+    "retained of baseline", "stress-related", "hypergeometric p")
 for (k in GRID_K) for (n in GRID_N) {
   x  <- instances(k, n); dd <- unique(x$locus_tag)
   ks <- sum(stress[dd], na.rm = TRUE)

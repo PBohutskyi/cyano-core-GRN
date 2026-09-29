@@ -148,10 +148,10 @@ def main():
 
     s54 = pd.read_excel(S5, sheet_name="S5-4. Conserved regulators")
     s6  = pd.read_csv(CURCORE)
-    s6["Stress_coupled"] = (s6.Stress_category.fillna("").astype(str).str.strip()
+    s6["Stress_related"] = (s6.Stress_category.fillna("").astype(str).str.strip()
                               .ne("").map({True: "Y", False: "N"}))
     core_name   = dict(zip(s6.locus_tag, s6.TF_name))
-    core_stress = dict(zip(s6.locus_tag, s6.Stress_coupled))
+    core_stress = dict(zip(s6.locus_tag, s6.Stress_related))
     core_cat, core_note = {}, {}
     for _, r in s6.iterrows():
         core_cat[r.locus_tag], core_note[r.locus_tag] = core_category(
@@ -184,7 +184,7 @@ def main():
                            Species_locus=loc, Core_locus=core_loc,
                            Regulator=name if pd.notna(name) else "",
                            product_name=sp_prod.get(loc, ""),
-                           Stress_coupled=core_stress.get(core_loc, ""),
+                           Stress_related=core_stress.get(core_loc, ""),
                            score=round(score, 3),
                            ic_tiebreak=round(
                                float(row["IC"]) / ic_max if ic_max else 0.0, 4))
@@ -208,7 +208,7 @@ def main():
             return pd.DataFrame()
         df = pd.DataFrame(recs)
         g = (df.groupby(["Species", "Group", "Species_locus", "Core_locus",
-                         "Regulator", "product_name", "Stress_coupled"],
+                         "Regulator", "product_name", "Stress_related"],
                         dropna=False, as_index=False)
                .agg(measures=("Measure", lambda s: "+".join(sorted(set(s)))),
                     score=("score", "max"),
@@ -268,9 +268,9 @@ def main():
     # is written, so no figure or count is built on conflicting curation.
     fatal = [w for w in warnings if w.startswith("Figure 6, ") and "S6-2 gives" in w]
     st5_chk = f5.category.isin(STRESS_CATEGORIES)
-    bad5 = f5.loc[st5_chk != (f5.Stress_coupled == "Y"), "Regulator"]
+    bad5 = f5.loc[st5_chk != (f5.Stress_related == "Y"), "Regulator"]
     if len(bad5):
-        fatal.append("Figure 5: stress category and Stress_coupled disagree for %s"
+        fatal.append("Figure 5: stress category and Stress_related disagree for %s"
                      % ", ".join(sorted(set(bad5))))
     if fatal:
         print("STOP: curation conflict, nothing written. Fix the curation files:")
@@ -343,14 +343,14 @@ def main():
     lines.append("  matches (regulator x species x measure): %d"
                  % sum(len(str(m).split("+")) for m in f5.measures))
     lines.append("  distinct core regulators: %d" % f5.Core_locus.nunique())
-    lines.append("  stress-coupled placements: %d (%.0f%%)"
-                 % ((f5.Stress_coupled == "Y").sum(),
-                    100 * (f5.Stress_coupled == "Y").mean()))
+    lines.append("  stress-related placements: %d (%.0f%%)"
+                 % ((f5.Stress_related == "Y").sum(),
+                    100 * (f5.Stress_related == "Y").mean()))
     st5 = f5.category.isin(STRESS_CATEGORIES)
-    if (st5 != (f5.Stress_coupled == "Y")).any():
-        warnings.append("Figure 5: stress category and S6-2 Stress_coupled "
+    if (st5 != (f5.Stress_related == "Y")).any():
+        warnings.append("Figure 5: stress category and S6-2 Stress_related "
                         "disagree for %s" % ", ".join(sorted(set(
-                            f5.loc[st5 != (f5.Stress_coupled == "Y"),
+                            f5.loc[st5 != (f5.Stress_related == "Y"),
                                    "Regulator"]))))
     lines.append("")
     lines.append("Figure 6, species-specific regulators")
@@ -363,10 +363,10 @@ def main():
         STRESS = STRESS_CATEGORIES
         st = f6.category.isin(STRESS)
         blank = f6.category.fillna("").astype(str).str.strip().isin(["", "nan"])
-        lines.append("  stress-coupled placements: %d of %d (%.0f%%)"
+        lines.append("  stress-related placements: %d of %d (%.0f%%)"
                      % (st.sum(), len(f6), 100 * st.mean()))
         sd = f6.loc[st, "Species_locus"].nunique()
-        lines.append("  stress-coupled distinct regulators: %d of %d"
+        lines.append("  stress-related distinct regulators: %d of %d"
                      % (sd, f6.Species_locus.nunique()))
         if blank.any():
             lines.append("  placements with no category: %d" % blank.sum())

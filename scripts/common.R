@@ -179,7 +179,7 @@ normalize_and_IC <- function(df) {
 ## Regulators = nodes with at least one outgoing edge.
 regulators <- function(g) node_names(g)[degree(g, mode = "out") > 0]
 
-## Core regulator curation. A regulator is stress-coupled when Stress_category
+## Core regulator curation. A regulator is stress-related when Stress_category
 ## is set.
 core_curation <- function(path = CUR_CORE) {
   if (!file.exists(path)) stop("missing ", path)
@@ -187,7 +187,7 @@ core_curation <- function(path = CUR_CORE) {
   stopifnot(nrow(d) == 38, !any(duplicated(d$locus_tag)), !any(is.na(d$TF_name)))
   sc <- trimws(ifelse(is.na(d$Stress_category), "", d$Stress_category))
   d$Stress_category <- ifelse(sc == "", NA, sc)
-  d$Stress_coupled  <- ifelse(sc == "", "N", "Y")
+  d$Stress_related  <- ifelse(sc == "", "N", "Y")
   d
 }
 

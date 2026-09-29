@@ -1,4 +1,4 @@
-Species,Group,Species_locus,Core_locus,Regulator,product_name,Stress_coupled,measures,score,ic_tiebreak,font_size,symbol_size,category,shape,label
+Species,Group,Species_locus,Core_locus,Regulator,product_name,Stress_related,measures,score,ic_tiebreak,font_size,symbol_size,category,shape,label
 Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS05135,SYNPCC7942_RS03260,NusG,transcription termination/antitermination protein NusG,N,degree+kcore,1.0,0.7982,17.0,2.02,housekeeping and transcription,starburst,NusG
 Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04780,SYNPCC7942_RS03565,NrdR,transcriptional regulator NrdR,Y,degree,0.515,0.4198,15.0,1.72,multi-stress,oval,NrdR
 Picosynechococcus sp. PCC 7002,local (degree/k-core),SYNPCC7002_RS04890,SYNPCC7942_RS07435,RpaB,response regulator transcription factor,Y,degree,0.489,0.5014,14.0,1.62,multi-stress,hexagon,RpaB

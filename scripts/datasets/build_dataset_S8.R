@@ -101,7 +101,7 @@ names(cent) <- sub("^kcore", "k_core", names(cent))
 ## same stress labels as S8-4
 if ("stress_related" %in% names(cent)) {
   cent$stress_related <- ifelse(cent$stress_related == "yes", "Y", "N")
-  names(cent)[names(cent) == "stress_related"] <- "Stress_coupled"
+  names(cent)[names(cent) == "stress_related"] <- "Stress_related"
   names(cent)[names(cent) == "stress_category"] <- "Stress_category"
 }
 names(cent)[names(cent) == "seed"] <- "Seed"
@@ -119,14 +119,14 @@ cat(sprintf("per-seed centralities: %d rows, %d to %d regulators per seed\n",
 rec <- read.csv(o("fig4_D_top15_recurrence.csv"), stringsAsFactors = FALSE)
 names(rec) <- c("locus_tag", "TF_name", "Representative_IC_rank",
                 "Seeds_in_top15", "Seed_rank_min", "Seed_rank_median",
-                "Seed_rank_max", "Stress_coupled")
-rec$Stress_coupled <- ifelse(rec$Stress_coupled == "yes", "Y", "N")
+                "Seed_rank_max", "Stress_related")
+rec$Stress_related <- ifelse(rec$Stress_related == "yes", "Y", "N")
 rec <- rec[order(-rec$Seeds_in_top15, rec$Representative_IC_rank), ]
 n_all  <- sum(rec$Seeds_in_top15 == length(SEEDS))
 n_most <- sum(rec$Seeds_in_top15 >= 8)
-cat(sprintf("top-%d recurrence: %d regulators in all %d runs, %d in at least 8 (%d stress-coupled)\n",
+cat(sprintf("top-%d recurrence: %d regulators in all %d runs, %d in at least 8 (%d stress-related)\n",
             TOPN, n_all, length(SEEDS), n_most,
-            sum(rec$Seeds_in_top15 >= 8 & rec$Stress_coupled == "Y")))
+            sum(rec$Seeds_in_top15 >= 8 & rec$Stress_related == "Y")))
 
 ## ---------------------------------------------------------------------------
 ## S8-5. Stress enrichment per seeded run, core GRN
@@ -136,7 +136,7 @@ N <- nrow(cc); K <- sum(cc$stress_related == "yes")
 E <- read.csv(o("fig4_E_stress_by_seed.csv"), stringsAsFactors = FALSE)
 enr <- data.frame(
   Run = sprintf("seed%d", E$seed),
-  Stress_coupled_in_top15 = E$k_stress,
+  Stress_related_in_top15 = E$k_stress,
   Expected_at_random = round(TOPN * K / N, 2),
   Hypergeometric_p = signif(E$p, 3),
   Significant_at_0.05 = ifelse(E$p < 0.05, "yes", "no"),
@@ -144,7 +144,7 @@ enr <- data.frame(
 k_rep <- sum(cc$stress_related[cc$IC_rank <= TOPN] == "yes")
 p_rep <- phyper(k_rep - 1, K, N - K, TOPN, lower.tail = FALSE)
 enr <- rbind(data.frame(Run = "representative",
-                        Stress_coupled_in_top15 = k_rep,
+                        Stress_related_in_top15 = k_rep,
                         Expected_at_random = round(TOPN * K / N, 2),
                         Hypergeometric_p = signif(p_rep, 3),
                         Significant_at_0.05 = ifelse(p_rep < 0.05, "yes", "no"),
@@ -184,7 +184,7 @@ legend <- rbind(
   c(SHEETS[["od"]],   sprintf("Out-degree of every regulator in each of the %d pruned seeded runs of each network, with the mean and standard deviation across the runs in which it has targets (Figure 4B, Figure S2B).", length(SEEDS))),
   c(SHEETS[["cent"]], sprintf("Centrality measures, normalized values, Integrated Centrality and IC rank for the core GRN regulators in each of the %d seeded runs. Computed with the same functions as Dataset S7, so the two are directly comparable.", length(SEEDS))),
   c(SHEETS[["rec"]],  sprintf("How many of the %d seeded runs place each core regulator in the top %d by IC, with the range of its rank across runs.", length(SEEDS), TOPN)),
-  c(SHEETS[["enr"]],  sprintf("Number of stress-coupled regulators among the top %d by IC in each seeded run and in the representative network, with the hypergeometric test against a pool of %d regulators of which %d are stress-coupled.", TOPN, N, K)),
+  c(SHEETS[["enr"]],  sprintf("Number of stress-related regulators among the top %d by IC in each seeded run and in the representative network, with the hypergeometric test against a pool of %d regulators of which %d are stress-related.", TOPN, N, K)),
   c(SHEETS[["nrec"]], sprintf("How much of each representative network recurs in its %d seeded runs: the percentage of its edges found in at least 1, at least 5 and all %d runs, and the median overlap of its genes and of its regulators with each seeded run.", length(SEEDS), length(SEEDS))),
   c("", ""),
   c("Column", "Definition"),
@@ -199,10 +199,10 @@ legend <- rbind(
   c("Representative_IC_rank", "Rank of the regulator by IC in the representative network."),
   c("Seeds_in_top15", sprintf("Number of seeded runs placing the regulator in the top %d by IC.", TOPN)),
   c("Seed_rank_min, Seed_rank_median, Seed_rank_max", "Range and median of the regulator's IC rank across the seeded runs in which it was ranked."),
-  c("Stress_coupled", "Y if a stress role is assigned to the regulator in Dataset S6, N otherwise."),
+  c("Stress_related", "Y if a stress role is assigned to the regulator in Dataset S6, N otherwise."),
   c("Stress_category", "Stress role assigned to the regulator (Dataset S6-2)."),
-  c("Expected_at_random", sprintf("Stress-coupled regulators expected among %d drawn at random from the pool, that is %d x %d / %d.", TOPN, TOPN, K, N)),
-  c("Hypergeometric_p", "One-sided probability of observing at least this many stress-coupled regulators by chance."),
+  c("Expected_at_random", sprintf("Stress-related regulators expected among %d drawn at random from the pool, that is %d x %d / %d.", TOPN, TOPN, K, N)),
+  c("Hypergeometric_p", "One-sided probability of observing at least this many stress-related regulators by chance."),
   c("Edges_recurring_in_...", "Edges of the representative network (regulator-target pairs) that are also present in the given number of pruned seeded runs, as a percentage of its edges."),
   c("Gene_overlap_median_percent, Regulator_overlap_median_percent", "Genes, or regulators (nodes with targets), present in both the representative network and a seeded run, as a percentage of the mean count of the two; median across the seeded runs.")
 )

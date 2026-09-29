@@ -40,9 +40,9 @@ def main():
 
     cen = pd.read_csv(CENT)[["locus_tag", "IC", "IC_rank"]]
     cur = pd.read_csv(CURCORE)
-    cur["Stress_coupled"] = cur.Stress_category.fillna("").str.strip().ne("").map({True: "Y", False: "N"})
+    cur["Stress_related"] = cur.Stress_category.fillna("").str.strip().ne("").map({True: "Y", False: "N"})
     lou = (pd.read_excel(S6SRC, sheet_name=SHEET)[["locus_tag", "Louvain_cluster"]])
-    d = (cur[["locus_tag", "TF_name", "Stress_coupled"]]
+    d = (cur[["locus_tag", "TF_name", "Stress_related"]]
            .merge(cen, on="locus_tag").merge(lou, on="locus_tag"))
     if len(d) != 38:
         sys.exit("expected 38 core regulators after joining inputs, got %d" % len(d))
@@ -81,7 +81,7 @@ def main():
     out = os.path.join(TAB, "figure3B_table.xlsx")
     with pd.ExcelWriter(out) as writer:
         tab.to_excel(writer, sheet_name="Figure 3B table", index=False)
-        (d[["TF_name", "locus_tag", "Louvain_cluster", "Stress_coupled",
+        (d[["TF_name", "locus_tag", "Louvain_cluster", "Stress_related",
             "IC", "IC_rank"]].sort_values("IC_rank")
            .to_excel(writer, sheet_name="Per regulator (S6-2)", index=False))
 
